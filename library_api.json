@@ -2,170 +2,6 @@
   "api_version": "1.0",
   "last_updated": "2026-06-02",
   "app_name": "DeenFlow",
-  "total_categories": 4,
-  "categories": [
-    {
-      "category_id": "cat_seerah",
-      "category_name": "Seerah (Biography of the Prophet)",
-      "books": [
-        {
-          "id": "bk_sealed_nectar",
-          "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
-          "author": "Safiur Rahman Mubarakpuri",
-          "language": "English",
-          "pages": 588,
-          "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
-          "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
-        },
-        {
-          "id": "bk_prophet_mecca",
-          "title": "Muhammad: His Life Based on the Earliest Sources",
-          "author": "Martin Lings",
-          "language": "English",
-          "pages": 383,
-          "cover_url": "https://archive.org/services/img/muhammad_20201111",
-          "pdf_url": "https://archive.org/download/muhammad_20201111/muhammad.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_hadith",
-      "category_name": "Hadith (Prophetic Traditions)",
-      "books": [
-        {
-          "id": "bk_forty_nawawi",
-          "title": "An-Nawawi's Forty Hadith",
-          "author": "Imam Yahya bin Sharaf an-Nawawi",
-          "language": "English & Arabic",
-          "pages": 120,
-          "cover_url": "https://archive.org/services/img/FortyHadithAnNawawi",
-          "pdf_url": "https://archive.org/download/FortyHadithAnNawawi/Forty_Hadith_An_Nawawi.pdf"
-        },
-        {
-          "id": "bk_riyadh_salihin",
-          "title": "Riyadh as-Salihin (Meadows of the Righteous)",
-          "author": "Imam An-Nawawi",
-          "language": "English Translation",
-          "pages": 448,
-          "cover_url": "https://archive.org/services/img/RiyadhAsSalihin_201801",
-          "pdf_url": "https://archive.org/download/RiyadhAsSalihin_201801/Riyadh%20as-Salihin.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_fiqh",
-      "category_name": "Fiqh (Jurisprudence)",
-      "books": [
-        {
-          "id": "bk_quduri",
-          "title": "Mukhtasar al-Quduri",
-          "author": "Imam Abu'l-Husayn al-Quduri",
-          "language": "English & Arabic",
-          "pages": 450,
-          "cover_url": "https://archive.org/services/img/mukhtasar-al-quduri",
-          "pdf_url": "https://archive.org/download/mukhtasar-al-quduri/mukhtasar-al-quduri.pdf"
-        },
-        {
-          "id": "bk_wudu_guide",
-          "title": "The Method of Wudu & Salah",
-          "author": "Classical Jurisprudence Scholars",
-          "language": "English",
-          "pages": 64,
-          "cover_url": "https://archive.org/services/img/wudu-salah-guide",
-          "pdf_url": "https://archive.org/download/wudu-salah-guide/wudu-salah-guide.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_tazkiyah",
-      "category_name": "Tazkiyah (Purification of the Soul)",
-      "books": [
-        {
-          "id": "bk_fortress_muslim",
-          "title": "Hisn al-Muslim (Fortress of the Muslim)",
-          "author": "Sa'id bin Ali bin Wahf Al-Qahtani",
-          "language": "English & Arabic",
-          "pages": 240,
-          "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
-          "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
-        }
-        
-      ]
-    }
-  ]
-}
-
-{
-  "api_version": "1.0",
-  "last_updated": "2026-06-02",
-  "categories": [
-    {
-      "category_id": "cat_cosmology",
-      "category_name": "Islamic Cosmology & Science",
-      "books": [
-        {
-          "id": "bk_quran_science",
-          "title": "The Bible, The Quran and Science",
-          "author": "Dr. Maurice Bucaille",
-          "language": "English",
-          "pages": 252,
-          "cover_url": "https://archive.org/services/img/TheBibleTheQuranAndScience",
-          "pdf_url": "https://archive.org/download/TheBibleTheQuranAndScience/TheBibleTheQuranAndScience.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_business",
-      "category_name": "Business Ethics & Fiqh",
-      "books": [
-        {
-          "id": "bk_islamic_finance",
-          "title": "An Introduction to Islamic Finance",
-          "author": "Mufti Muhammad Taqi Usmani",
-          "language": "English",
-          "pages": 169,
-          "cover_url": "https://archive.org/services/img/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani",
-          "pdf_url": "https://archive.org/download/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_seerah",
-      "category_name": "Seerah (Prophetic Biography)",
-      "books": [
-        {
-          "id": "bk_sealed_nectar",
-          "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
-          "author": "Safiur Rahman Mubarakpuri",
-          "language": "English",
-          "pages": 588,
-          "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
-          "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
-        }
-      ]
-    },
-    {
-      "category_id": "cat_tazkiyah",
-      "category_name": "Tazkiyah & Adhkar",
-      "books": [
-        {
-          "id": "bk_fortress_muslim",
-          "title": "Hisn al-Muslim (Fortress of the Muslim)",
-          "author": "Sa'id bin Ali bin Wahf Al-Qahtani",
-          "language": "English & Arabic",
-          "pages": 240,
-          "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
-          "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
-        }
-      ]
-    }
-  ]
-}
-
-{
-  "api_version": "1.0",
-  "last_updated": "2026-06-02",
-  "app_name": "DeenFlow",
   "total_categories": 14,
   "categories": [
     {
@@ -220,11 +56,20 @@
         {
           "id": "bk_forty_nawawi",
           "title": "An-Nawawi's Forty Hadith",
-          "author": "Imam An-Nawawi",
+          "author": "Imam Yahya bin Sharaf an-Nawawi",
           "language": "English & Arabic",
           "pages": 120,
           "cover_url": "https://archive.org/services/img/FortyHadithAnNawawi",
           "pdf_url": "https://archive.org/download/FortyHadithAnNawawi/Forty_Hadith_An_Nawawi.pdf"
+        },
+        {
+          "id": "bk_riyadh_salihin",
+          "title": "Riyadh as-Salihin (Meadows of the Righteous)",
+          "author": "Imam An-Nawawi",
+          "language": "English Translation",
+          "pages": 448,
+          "cover_url": "https://archive.org/services/img/RiyadhAsSalihin_201801",
+          "pdf_url": "https://archive.org/download/RiyadhAsSalihin_201801/Riyadh%20as-Salihin.pdf"
         }
       ]
     },
@@ -240,6 +85,15 @@
           "pages": 588,
           "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
           "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
+        },
+        {
+          "id": "bk_prophet_mecca",
+          "title": "Muhammad: His Life Based on the Earliest Sources",
+          "author": "Martin Lings",
+          "language": "English",
+          "pages": 383,
+          "cover_url": "https://archive.org/services/img/muhammad_20201111",
+          "pdf_url": "https://archive.org/download/muhammad_20201111/muhammad.pdf"
         }
       ]
     },
@@ -255,6 +109,15 @@
           "pages": 450,
           "cover_url": "https://archive.org/services/img/mukhtasar-al-quduri",
           "pdf_url": "https://archive.org/download/mukhtasar-al-quduri/mukhtasar-al-quduri.pdf"
+        },
+        {
+          "id": "bk_wudu_guide",
+          "title": "The Method of Wudu & Salah",
+          "author": "Classical Jurisprudence Scholars",
+          "language": "English",
+          "pages": 64,
+          "cover_url": "https://archive.org/services/img/wudu-salah-guide",
+          "pdf_url": "https://archive.org/download/wudu-salah-guide/wudu-salah-guide.pdf"
         }
       ]
     },
@@ -379,114 +242,4 @@
       ]
     }
   ]
-}
-
-
-dependencies:
-  flutter:
-    sdk: flutter
-  syncfusion_flutter_pdfviewer: ^24.2.7  # For rendering PDFs perfectly
-  shared_preferences: ^2.2.3             # For saving the page number locally
-
-import 'package:flutter/material.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
-// import 'GamificationProvider.dart'; // Uncomment this when you add your points engine
-
-class SmartReaderScreen extends StatefulWidget {
-  final String bookId;
-  final String bookTitle;
-  final String pdfUrl; // Use local file path here if downloading first
-
-  const SmartReaderScreen({
-    Key? key,
-    required this.bookId,
-    required this.bookTitle,
-    required this.pdfUrl,
-  }) : super(key: key);
-
-  @override
-  State<SmartReaderScreen> createState() => _SmartReaderScreenState();
-}
-
-class _SmartReaderScreenState extends State<SmartReaderScreen> {
-  final PdfViewerController _pdfViewerController = PdfViewerController();
-  int _savedPageNumber = 1;
-  bool _isJumpingToPage = false;
-
-  @override
-  void initState() {
-    super.initState();
-    // We don't load the page here; we wait for the document to finish rendering first.
-  }
-
-  /// Fetches the last read page from the phone's local memory
-  Future<void> _loadSavedPage() async {
-    final prefs = await SharedPreferences.getInstance();
-    // Use a unique key for each book, e.g., 'bookmark_book_001'
-    final int? savedPage = prefs.getInt('bookmark_${widget.bookId}');
-    
-    if (savedPage != null && savedPage > 1) {
-      setState(() {
-        _savedPageNumber = savedPage;
-        _isJumpingToPage = true;
-      });
-      
-      // Tell the PDF controller to jump to the saved page
-      _pdfViewerController.jumpToPage(savedPage);
-      
-      // Show a quick, elegant message to the user
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Resumed from page $savedPage'),
-          backgroundColor: const Color(0xFF152243), // DeenFlow Slate
-          duration: const Duration(seconds: 2),
-        ),
-      );
-    }
-  }
-
-  /// Silently saves the current page whenever the user scrolls/swipes
-  Future<void> _saveCurrentPage(int pageNumber) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setInt('bookmark_${widget.bookId}', pageNumber);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: const Color(0xFF0B132B), // DeenFlow Deep Space Blue
-      appBar: AppBar(
-        title: Text(
-          widget.bookTitle, 
-          style: const TextStyle(color: Color(0xFFD4AF37)), // Gold Text
-        ),
-        backgroundColor: const Color(0xFF152243),
-        iconTheme: const IconThemeData(color: Color(0xFFD4AF37)),
-        elevation: 0,
-      ),
-      body: SfPdfViewer.network(
-        widget.pdfUrl,
-        controller: _pdfViewerController,
-        canShowScrollHead: false, // Hides default ugly scrollbars
-        pageLayoutMode: PdfPageLayoutMode.single, // Read like a real book (one page at a time)
-        
-        // 1. TRIGGERED WHEN BOOK OPENS
-        onDocumentLoaded: (PdfDocumentLoadedDetails details) {
-          // Once the book is ready, fetch the bookmark and jump to it
-          _loadSavedPage();
-        },
-        
-        // 2. TRIGGERED EVERY TIME THE USER SWIPES A PAGE
-        onPageChanged: (PdfPageChangedDetails details) {
-          // Save the new page number silently in the background
-          _saveCurrentPage(details.newPageNumber);
-          
-          // GAMIFICATION HOOK: Award points for reading!
-          // If you want to award points per page:
-          // Provider.of<GamificationProvider>(context, listen: false).addPoints(5);
-        },
-      ),
-    );
-  }
 }
