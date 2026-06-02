@@ -380,3 +380,113 @@
     }
   ]
 }
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  syncfusion_flutter_pdfviewer: ^24.2.7  # For rendering PDFs perfectly
+  shared_preferences: ^2.2.3             # For saving the page number locally
+
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+// import 'GamificationProvider.dart'; // Uncomment this when you add your points engine
+
+class SmartReaderScreen extends StatefulWidget {
+  final String bookId;
+  final String bookTitle;
+  final String pdfUrl; // Use local file path here if downloading first
+
+  const SmartReaderScreen({
+    Key? key,
+    required this.bookId,
+    required this.bookTitle,
+    required this.pdfUrl,
+  }) : super(key: key);
+
+  @override
+  State<SmartReaderScreen> createState() => _SmartReaderScreenState();
+}
+
+class _SmartReaderScreenState extends State<SmartReaderScreen> {
+  final PdfViewerController _pdfViewerController = PdfViewerController();
+  int _savedPageNumber = 1;
+  bool _isJumpingToPage = false;
+
+  @override
+  void initState() {
+    super.initState();
+    // We don't load the page here; we wait for the document to finish rendering first.
+  }
+
+  /// Fetches the last read page from the phone's local memory
+  Future<void> _loadSavedPage() async {
+    final prefs = await SharedPreferences.getInstance();
+    // Use a unique key for each book, e.g., 'bookmark_book_001'
+    final int? savedPage = prefs.getInt('bookmark_${widget.bookId}');
+    
+    if (savedPage != null && savedPage > 1) {
+      setState(() {
+        _savedPageNumber = savedPage;
+        _isJumpingToPage = true;
+      });
+      
+      // Tell the PDF controller to jump to the saved page
+      _pdfViewerController.jumpToPage(savedPage);
+      
+      // Show a quick, elegant message to the user
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Resumed from page $savedPage'),
+          backgroundColor: const Color(0xFF152243), // DeenFlow Slate
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    }
+  }
+
+  /// Silently saves the current page whenever the user scrolls/swipes
+  Future<void> _saveCurrentPage(int pageNumber) async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setInt('bookmark_${widget.bookId}', pageNumber);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: const Color(0xFF0B132B), // DeenFlow Deep Space Blue
+      appBar: AppBar(
+        title: Text(
+          widget.bookTitle, 
+          style: const TextStyle(color: Color(0xFFD4AF37)), // Gold Text
+        ),
+        backgroundColor: const Color(0xFF152243),
+        iconTheme: const IconThemeData(color: Color(0xFFD4AF37)),
+        elevation: 0,
+      ),
+      body: SfPdfViewer.network(
+        widget.pdfUrl,
+        controller: _pdfViewerController,
+        canShowScrollHead: false, // Hides default ugly scrollbars
+        pageLayoutMode: PdfPageLayoutMode.single, // Read like a real book (one page at a time)
+        
+        // 1. TRIGGERED WHEN BOOK OPENS
+        onDocumentLoaded: (PdfDocumentLoadedDetails details) {
+          // Once the book is ready, fetch the bookmark and jump to it
+          _loadSavedPage();
+        },
+        
+        // 2. TRIGGERED EVERY TIME THE USER SWIPES A PAGE
+        onPageChanged: (PdfPageChangedDetails details) {
+          // Save the new page number silently in the background
+          _saveCurrentPage(details.newPageNumber);
+          
+          // GAMIFICATION HOOK: Award points for reading!
+          // If you want to award points per page:
+          // Provider.of<GamificationProvider>(context, listen: false).addPoints(5);
+        },
+      ),
+    );
+  }
+}
