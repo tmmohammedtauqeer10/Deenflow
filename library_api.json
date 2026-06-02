@@ -1,0 +1,95 @@
+{
+  "api_version": "1.0",
+  "last_updated": "2026-06-02",
+  "app_name": "DeenFlow",
+  "total_categories": 4,
+  "categories": [
+    {
+      "category_id": "cat_seerah",
+      "category_name": "Seerah (Biography of the Prophet)",
+      "books": [
+        {
+          "id": "bk_sealed_nectar",
+          "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
+          "author": "Safiur Rahman Mubarakpuri",
+          "language": "English",
+          "pages": 588,
+          "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
+          "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
+        },
+        {
+          "id": "bk_prophet_mecca",
+          "title": "Muhammad: His Life Based on the Earliest Sources",
+          "author": "Martin Lings",
+          "language": "English",
+          "pages": 383,
+          "cover_url": "https://archive.org/services/img/muhammad_20201111",
+          "pdf_url": "https://archive.org/download/muhammad_20201111/muhammad.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_hadith",
+      "category_name": "Hadith (Prophetic Traditions)",
+      "books": [
+        {
+          "id": "bk_forty_nawawi",
+          "title": "An-Nawawi's Forty Hadith",
+          "author": "Imam Yahya bin Sharaf an-Nawawi",
+          "language": "English & Arabic",
+          "pages": 120,
+          "cover_url": "https://archive.org/services/img/FortyHadithAnNawawi",
+          "pdf_url": "https://archive.org/download/FortyHadithAnNawawi/Forty_Hadith_An_Nawawi.pdf"
+        },
+        {
+          "id": "bk_riyadh_salihin",
+          "title": "Riyadh as-Salihin (Meadows of the Righteous)",
+          "author": "Imam An-Nawawi",
+          "language": "English Translation",
+          "pages": 448,
+          "cover_url": "https://archive.org/services/img/RiyadhAsSalihin_201801",
+          "pdf_url": "https://archive.org/download/RiyadhAsSalihin_201801/Riyadh%20as-Salihin.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_fiqh",
+      "category_name": "Fiqh (Jurisprudence)",
+      "books": [
+        {
+          "id": "bk_quduri",
+          "title": "Mukhtasar al-Quduri",
+          "author": "Imam Abu'l-Husayn al-Quduri",
+          "language": "English & Arabic",
+          "pages": 450,
+          "cover_url": "https://archive.org/services/img/mukhtasar-al-quduri",
+          "pdf_url": "https://archive.org/download/mukhtasar-al-quduri/mukhtasar-al-quduri.pdf"
+        },
+        {
+          "id": "bk_wudu_guide",
+          "title": "The Method of Wudu & Salah",
+          "author": "Classical Jurisprudence Scholars",
+          "language": "English",
+          "pages": 64,
+          "cover_url": "https://archive.org/services/img/wudu-salah-guide",
+          "pdf_url": "https://archive.org/download/wudu-salah-guide/wudu-salah-guide.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_tazkiyah",
+      "category_name": "Tazkiyah (Purification of the Soul)",
+      "books": [
+        {
+          "id": "bk_fortress_muslim",
+          "title": "Hisn al-Muslim (Fortress of the Muslim)",
+          "author": "Sa'id bin Ali bin Wahf Al-Qahtani",
+          "language": "English & Arabic",
+          "pages": 240,
+          "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
+          "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
+        }
+      ]
+    }
+  ]
+}
