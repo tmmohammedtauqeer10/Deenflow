@@ -9,13 +9,13 @@
       "category_name": "Al-Quran (The Holy Text)",
       "books": [
         {
-          "id": "bk_quran_english",
-          "title": "The Clear Quran (English Translation)",
-          "author": "Dr. Mustafa Khattab",
-          "language": "English",
-          "pages": 434,
-          "cover_url": "https://archive.org/services/img/the-clear-quran-english",
-          "pdf_url": "https://archive.org/download/the-clear-quran-english/the-clear-quran-english.pdf"
+          "id": "bk_quran",
+          "title": "QuranMajeed-15Lines-Pakistani",
+          "author": "QudratUllah",
+          "language": "Arabic",
+          "pages": 616,
+          "cover_url": https://gemini.google.com/share/1fc69326db72
+          "pdf_url": https://drive.google.com/file/d/1njkS_VAS4QOVY8uQXoJIPUXmsv8HB39I/view?usp=drive_link
         }
       ]
     },
