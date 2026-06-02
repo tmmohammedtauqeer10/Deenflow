@@ -1,0 +1,94 @@
+{
+  "status": "success",
+  "api_version": "1.0",
+  "last_updated": "2026-06-02",
+  "total_categories": 4,
+  "categories": [
+    {
+      "category_id": "quiz_seerah_01",
+      "category_name": "Seerah (Life of the Prophet)",
+      "difficulty": "Easy",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_see_001",
+          "text": "In which city was Prophet Muhammad (PBUH) born?",
+          "options": ["Medina", "Mecca", "Taif", "Jerusalem"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_see_002",
+          "text": "What was the name of the mountain where the Prophet (PBUH) received the first revelation?",
+          "options": ["Mount Uhud", "Mount Safa", "Mount Hira", "Mount Sinai"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_see_003",
+          "text": "For how many years did the Prophet (PBUH) preach Islam secretly in Mecca?",
+          "options": ["3 Years", "5 Years", "1 Year", "7 Years"],
+          "correct_index": 0
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_hadith_01",
+      "category_name": "Hadith & Sunnah",
+      "difficulty": "Medium",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_had_001",
+          "text": "According to the famous first Hadith in Sahih al-Bukhari, actions are judged by what?",
+          "options": ["Their results", "Intentions", "Knowledge", "Effort"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_had_002",
+          "text": "Which companion narrated the highest number of Hadiths?",
+          "options": ["Abu Hurairah", "Abdullah ibn Umar", "Anas ibn Malik", "Aisha bint Abu Bakr"],
+          "correct_index": 0
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_fiqh_01",
+      "category_name": "Basic Fiqh (Jurisprudence)",
+      "difficulty": "Medium",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_fiq_001",
+          "text": "How many obligatory (Fard) actions are there during Wudu?",
+          "options": ["3 Actions", "6 Actions", "4 Actions", "5 Actions"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_fiq_002",
+          "text": "Which of the following breaks the fast (Sawm) automatically?",
+          "options": ["Using Miswak", "Accidental swallowing", "Intentional eating or drinking", "Applying perfume"],
+          "correct_index": 2
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_history_01",
+      "category_name": "Islamic History",
+      "difficulty": "Hard",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_his_001",
+          "text": "Who was chosen as the first Caliph (Khalifah) of Islam after the passing of the Prophet (PBUH)?",
+          "options": ["Umar ibn al-Khattab", "Ali ibn Abi Talib", "Uthman ibn Affan", "Abu Bakr as-Siddiq"],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q_his_002",
+          "text": "In which Islamic calendar year did the Hijrah (migration to Medina) take place?",
+          "options": ["1 AH", "622 AH", "13 BH", "5 AH"],
+          "correct_index": 0
+        }
+      ]
+    }
+  ]
+}
