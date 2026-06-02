@@ -89,6 +89,293 @@
           "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
           "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
         }
+        
+      ]
+    }
+  ]
+}
+
+{
+  "api_version": "1.0",
+  "last_updated": "2026-06-02",
+  "categories": [
+    {
+      "category_id": "cat_cosmology",
+      "category_name": "Islamic Cosmology & Science",
+      "books": [
+        {
+          "id": "bk_quran_science",
+          "title": "The Bible, The Quran and Science",
+          "author": "Dr. Maurice Bucaille",
+          "language": "English",
+          "pages": 252,
+          "cover_url": "https://archive.org/services/img/TheBibleTheQuranAndScience",
+          "pdf_url": "https://archive.org/download/TheBibleTheQuranAndScience/TheBibleTheQuranAndScience.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_business",
+      "category_name": "Business Ethics & Fiqh",
+      "books": [
+        {
+          "id": "bk_islamic_finance",
+          "title": "An Introduction to Islamic Finance",
+          "author": "Mufti Muhammad Taqi Usmani",
+          "language": "English",
+          "pages": 169,
+          "cover_url": "https://archive.org/services/img/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani",
+          "pdf_url": "https://archive.org/download/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_seerah",
+      "category_name": "Seerah (Prophetic Biography)",
+      "books": [
+        {
+          "id": "bk_sealed_nectar",
+          "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
+          "author": "Safiur Rahman Mubarakpuri",
+          "language": "English",
+          "pages": 588,
+          "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
+          "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_tazkiyah",
+      "category_name": "Tazkiyah & Adhkar",
+      "books": [
+        {
+          "id": "bk_fortress_muslim",
+          "title": "Hisn al-Muslim (Fortress of the Muslim)",
+          "author": "Sa'id bin Ali bin Wahf Al-Qahtani",
+          "language": "English & Arabic",
+          "pages": 240,
+          "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
+          "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
+        }
+      ]
+    }
+  ]
+}
+
+{
+  "api_version": "1.0",
+  "last_updated": "2026-06-02",
+  "app_name": "DeenFlow",
+  "total_categories": 14,
+  "categories": [
+    {
+      "category_id": "cat_quran",
+      "category_name": "Al-Quran (The Holy Text)",
+      "books": [
+        {
+          "id": "bk_quran_english",
+          "title": "The Clear Quran (English Translation)",
+          "author": "Dr. Mustafa Khattab",
+          "language": "English",
+          "pages": 434,
+          "cover_url": "https://archive.org/services/img/the-clear-quran-english",
+          "pdf_url": "https://archive.org/download/the-clear-quran-english/the-clear-quran-english.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_tafsir",
+      "category_name": "Tafsir (Exegesis & Commentary)",
+      "books": [
+        {
+          "id": "bk_tafsir_ibnkathir",
+          "title": "Tafsir Ibn Kathir (Abridged Volume 1)",
+          "author": "Imam Ismail Ibn Kathir",
+          "language": "English",
+          "pages": 640,
+          "cover_url": "https://archive.org/services/img/TafseerIbnKathirall10VolumesEng",
+          "pdf_url": "https://archive.org/download/TafseerIbnKathirall10VolumesEng/01.Tafseer%20Ibn%20Kathir%20Part%201%20%28Surah%20Al-Fatiha%20To%20Surah%20Al-Baqarah%20Verse%20141%29.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_tajweed",
+      "category_name": "Tajweed & Qira'at",
+      "books": [
+        {
+          "id": "bk_tajweed_rules",
+          "title": "Tajweed Rules for Quranic Recitation",
+          "author": "Kareema Carol Czerepinski",
+          "language": "English",
+          "pages": 98,
+          "cover_url": "https://archive.org/services/img/TajweedRulesPart1",
+          "pdf_url": "https://archive.org/download/TajweedRulesPart1/TajweedRulesPart1.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_hadith",
+      "category_name": "Hadith (Prophetic Traditions)",
+      "books": [
+        {
+          "id": "bk_forty_nawawi",
+          "title": "An-Nawawi's Forty Hadith",
+          "author": "Imam An-Nawawi",
+          "language": "English & Arabic",
+          "pages": 120,
+          "cover_url": "https://archive.org/services/img/FortyHadithAnNawawi",
+          "pdf_url": "https://archive.org/download/FortyHadithAnNawawi/Forty_Hadith_An_Nawawi.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_seerah",
+      "category_name": "Seerah (Prophetic Biography)",
+      "books": [
+        {
+          "id": "bk_sealed_nectar",
+          "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)",
+          "author": "Safiur Rahman Mubarakpuri",
+          "language": "English",
+          "pages": 588,
+          "cover_url": "https://archive.org/services/img/sealed-nectar-pdf",
+          "pdf_url": "https://archive.org/download/sealed-nectar-pdf/sealed-nectar-pdf.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_fiqh",
+      "category_name": "Fiqh (Jurisprudence & Law)",
+      "books": [
+        {
+          "id": "bk_quduri",
+          "title": "Mukhtasar al-Quduri",
+          "author": "Imam Abu'l-Husayn al-Quduri",
+          "language": "English & Arabic",
+          "pages": 450,
+          "cover_url": "https://archive.org/services/img/mukhtasar-al-quduri",
+          "pdf_url": "https://archive.org/download/mukhtasar-al-quduri/mukhtasar-al-quduri.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_aqeedah",
+      "category_name": "Aqeedah (Theology & Creed)",
+      "books": [
+        {
+          "id": "bk_aqeedah_tahawiyah",
+          "title": "Al-Aqeedah At-Tahawiyyah",
+          "author": "Imam Abu Ja'far At-Tahawi",
+          "language": "English Translation",
+          "pages": 85,
+          "cover_url": "https://archive.org/services/img/TheCreedOfAtTahawi",
+          "pdf_url": "https://archive.org/download/TheCreedOfAtTahawi/TheCreedOfAt-tahawi.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_tazkiyah",
+      "category_name": "Tazkiyah & Akhlaq",
+      "books": [
+        {
+          "id": "bk_purification_soul",
+          "title": "Purification of the Soul",
+          "author": "Imam Ibn Al-Qayyim Al-Jawziyyah",
+          "language": "English",
+          "pages": 140,
+          "cover_url": "https://archive.org/services/img/ThePurificationOfTheSoul",
+          "pdf_url": "https://archive.org/download/ThePurificationOfTheSoul/ThePurificationOfTheSoul.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_adhkar",
+      "category_name": "Du'a & Adhkar (Supplications)",
+      "books": [
+        {
+          "id": "bk_fortress_muslim",
+          "title": "Hisn al-Muslim (Fortress of the Muslim)",
+          "author": "Sa'id bin Ali bin Wahf Al-Qahtani",
+          "language": "English & Arabic",
+          "pages": 240,
+          "cover_url": "https://archive.org/services/img/fortress-of-the-muslim-hisn-al-muslim",
+          "pdf_url": "https://archive.org/download/fortress-of-the-muslim-hisn-al-muslim/fortress-of-the-muslim-hisn-al-muslim.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_history",
+      "category_name": "Islamic History & Heritage",
+      "books": [
+        {
+          "id": "bk_history_islam",
+          "title": "The History of Islam (Volume 1)",
+          "author": "Akbar Shah Najeebabadi",
+          "language": "English",
+          "pages": 520,
+          "cover_url": "https://archive.org/services/img/HistoryOfIslamVolume1",
+          "pdf_url": "https://archive.org/download/HistoryOfIslamVolume1/History%20of%20Islam%20Volume%201.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_biographies",
+      "category_name": "Biographies (Companions & Scholars)",
+      "books": [
+        {
+          "id": "bk_companions_prophet",
+          "title": "Biographies of the Companions",
+          "author": "Abdul Mustafa Azami",
+          "language": "English",
+          "pages": 310,
+          "cover_url": "https://archive.org/services/img/companions-of-the-prophet",
+          "pdf_url": "https://archive.org/download/companions-of-the-prophet/companions-of-the-prophet.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_business",
+      "category_name": "Business Ethics & Finance",
+      "books": [
+        {
+          "id": "bk_islamic_finance",
+          "title": "An Introduction to Islamic Finance",
+          "author": "Mufti Muhammad Taqi Usmani",
+          "language": "English",
+          "pages": 169,
+          "cover_url": "https://archive.org/services/img/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani",
+          "pdf_url": "https://archive.org/download/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani/AnIntroductionToIslamicFinanceByMuftiTaqiUsmani.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_cosmology",
+      "category_name": "Islamic Cosmology & Science",
+      "books": [
+        {
+          "id": "bk_quran_science",
+          "title": "The Bible, The Quran and Science",
+          "author": "Dr. Maurice Bucaille",
+          "language": "English",
+          "pages": 252,
+          "cover_url": "https://archive.org/services/img/TheBibleTheQuranAndScience",
+          "pdf_url": "https://archive.org/download/TheBibleTheQuranAndScience/TheBibleTheQuranAndScience.pdf"
+        }
+      ]
+    },
+    {
+      "category_id": "cat_family",
+      "category_name": "Family Life & Youth",
+      "books": [
+        {
+          "id": "bk_ideal_muslimah",
+          "title": "The Ideal Muslimah",
+          "author": "Dr. Muhammad Ali Al-Hashimi",
+          "language": "English",
+          "pages": 320,
+          "cover_url": "https://archive.org/services/img/TheIdealMuslimah",
+          "pdf_url": "https://archive.org/download/TheIdealMuslimah/TheIdealMuslimah.pdf"
+        }
       ]
     }
   ]
