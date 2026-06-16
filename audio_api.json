@@ -271,43 +271,165 @@
     {
       "category_id": "cat_nasheed",
       "category_name": {
-        "en": "Nasheed (Vocals Only)",
-        "ur": "نعت و نشید"
+        "en": "Nasheed, Naat & Hamd",
+        "ur": "نشید، نعت و حمد"
       },
       "icon": "music",
       "color": "#2c7a7b",
       "series": [
         {
-          "id": "ser_naat",
+          "id": "ser_hamd",
           "title": {
-            "en": "Naat & Hamd",
-            "ur": "نعت و حمد"
+            "en": "Hamd — Praise of Allah",
+            "ur": "حمدِ باری تعالیٰ"
           },
           "narrator": {
-            "en": "Various Reciters",
-            "ur": "مختلف نعت خواں"
+            "en": "Junaid Jamshed",
+            "ur": "جنید جمشید"
           },
           "language": "ur",
           "description": {
-            "en": "Praise of Allah and His Messenger ﷺ in beautiful voices — vocals only.",
-            "ur": "اللہ اور اس کے رسول ﷺ کی تعریف خوبصورت آوازوں میں — صرف آواز۔"
+            "en": "Songs of praise glorifying Allah — vocals only, suitable for all listeners.",
+            "ur": "اللہ کی حمد و ثنا پر مشتمل کلام — صرف آواز، ہر سامع کے لیے موزوں۔"
           },
           "badge": {
-            "en": "Placeholder",
-            "ur": "نمونہ"
+            "en": "Hamd",
+            "ur": "حمد"
           },
           "cover_color": "#234e52",
-          "cover_url": "",
+          "cover_url": "https://archive.org/services/img/AhnafMedia-Audios-Naat-Junaid-Jamshed",
           "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
           "episodes": [
             {
-              "id": "ep_naat_01",
+              "id": "ep_hamd_ae_allah",
               "title": {
-                "en": "01 — Hamd",
-                "ur": "۱ — حمد"
+                "en": "Ae Allah Ae Allah",
+                "ur": "اے اللہ اے اللہ"
               },
               "duration_seconds": 0,
-              "audio_url": "https://archive.org/download/REPLACE_ME_naat/01_hamd.mp3"
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Junaid-Jamshed/AeAllahAeAllah.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_naat_urdu",
+          "title": {
+            "en": "Naat — Praise of the Prophet ﷺ",
+            "ur": "نعتِ رسولِ مقبول ﷺ"
+          },
+          "narrator": {
+            "en": "Junaid Jamshed",
+            "ur": "جنید جمشید"
+          },
+          "language": "ur",
+          "description": {
+            "en": "Beloved Urdu naats in praise of the Messenger of Allah ﷺ — vocals only.",
+            "ur": "نبی کریم ﷺ کی شان میں مشہور اردو نعتیں — صرف آواز۔"
+          },
+          "badge": {
+            "en": "Urdu Naat",
+            "ur": "اردو نعت"
+          },
+          "cover_color": "#2c5282",
+          "cover_url": "https://archive.org/services/img/AhnafMedia-Audios-Naat-Junaid-Jamshed",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_naat_aei_taiba",
+              "title": {
+                "en": "Aei Taiba",
+                "ur": "اے طیبہ"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Junaid-Jamshed/AeiTaiba.mp3"
+            },
+            {
+              "id": "ep_naat_rasool_e_ameen",
+              "title": {
+                "en": "Ae Rasool-e-Ameen ﷺ",
+                "ur": "اے رسولِ امین ﷺ"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Junaid-Jamshed/AeiRasool-e-ameen.mp3"
+            },
+            {
+              "id": "ep_naat_badr_ud_duja",
+              "title": {
+                "en": "Badr-ud-Duja",
+                "ur": "بدرالدجیٰ"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Junaid-Jamshed/Badr-Ud-Duja.mp3"
+            },
+            {
+              "id": "ep_naat_faizan_e_muhammad",
+              "title": {
+                "en": "Faizan-e-Muhammad ﷺ",
+                "ur": "فیضانِ محمد ﷺ"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Junaid-Jamshed/Faizan-e-Muhammad.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_en",
+          "title": {
+            "en": "Nasheed — Forgive Me (Vocals Only)",
+            "ur": "نشید — فورگیو می (صرف آواز)"
+          },
+          "narrator": {
+            "en": "Maher Zain",
+            "ur": "ماہر زین"
+          },
+          "language": "en",
+          "description": {
+            "en": "English nasheeds with no instruments — the acclaimed 'Forgive Me' album in its vocals-only edition.",
+            "ur": "بغیر موسیقی کے انگریزی نشید — مشہور البم 'فورگیو می' کا صرف آواز والا ورژن۔"
+          },
+          "badge": {
+            "en": "English • No Music",
+            "ur": "انگریزی • بغیر موسیقی"
+          },
+          "cover_color": "#1a365d",
+          "cover_url": "https://archive.org/services/img/maherzainforgiveme_201605",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_nasheed_i_love_you_so",
+              "title": {
+                "en": "I Love You So",
+                "ur": "آئی لو یو سو"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/maherzainforgiveme_201605/01%20-%20I%20Love%20You%20So%20%28Vocals%20Only%20-%20No%20Music%29.mp3"
+            },
+            {
+              "id": "ep_nasheed_mawlaya",
+              "title": {
+                "en": "Mawlaya",
+                "ur": "مولایا"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/maherzainforgiveme_201605/03%20-%20Mawlaya%20%28Vocals%20Only%20-%20No%20Music%29.mp3"
+            },
+            {
+              "id": "ep_nasheed_forgive_me",
+              "title": {
+                "en": "Forgive Me",
+                "ur": "فورگیو می"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/maherzainforgiveme_201605/05%20-%20Forgive%20Me%20%28Vocals%20Only%20-%20No%20Music%29.mp3"
+            },
+            {
+              "id": "ep_nasheed_assalamu_alayka",
+              "title": {
+                "en": "Assalamu Alayka",
+                "ur": "السلام علیک"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/maherzainforgiveme_201605/07%20-%20Assalamu%20Alayka%20%28Vocals%20Only%20-%20No%20Music%29.mp3"
             }
           ]
         }
