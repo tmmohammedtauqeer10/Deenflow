@@ -6,8 +6,8 @@
   "default_language": "en",
   "supported_languages": ["en", "ur"],
   "cdn": "Archive.org",
-  "_note": "Series under 'Seerah & Stories' and the Urdu 'Zahni Sukun' lecture use REAL, verified Archive.org direct-download links and should play as-is. Series whose audio_url contains 'REPLACE_ME' are placeholders showing the schema — fill them with real Archive.org links (format: https://archive.org/download/<identifier>/<url-encoded-file>.mp3) before relying on them.",
-  "total_categories": 4,
+  "_note": "All audio_url values are REAL, verified Archive.org direct-download links (format: https://archive.org/download/<identifier>/<url-encoded-file>.mp3) and should play as-is.",
+  "total_categories": 6,
   "categories": [
     {
       "category_id": "cat_seerah_audio",
@@ -1294,6 +1294,243 @@
               "title": { "en": "Ay Khoda Ya Mihanam", "ur": "اے خدا یا میہنم" },
               "duration_seconds": 0,
               "audio_url": "https://archive.org/download/FarsiNasheed/AyKhudaYaMiahanam.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_ar_bukhatir",
+          "title": {
+            "en": "Ahmed Bukhatir — Arabic Nasheeds",
+            "ur": "احمد بخاطر — عربی نشید"
+          },
+          "narrator": {
+            "en": "Ahmed Bukhatir",
+            "ur": "احمد بخاطر"
+          },
+          "language": "ar",
+          "description": {
+            "en": "Acclaimed Arabic nasheeds (vocals only) by Ahmed Bukhatir.",
+            "ur": "احمد بخاطر کی مشہور عربی نشید (صرف آواز)۔"
+          },
+          "badge": {
+            "en": "Arabic • No Music",
+            "ur": "عربی • بغیر موسیقی"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/IlahijeBezMuzike",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_bukhatir_rabbun_allah",
+              "title": { "en": "Rabbun Allah", "ur": "ربّ اللہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/IlahijeBezMuzike/Ahmed-Bukhatir-Rabbun-Allah.mp3"
+            },
+            {
+              "id": "ep_bukhatir_ya_adheem",
+              "title": { "en": "Ya Adheem", "ur": "یا عظیم" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/IlahijeBezMuzike/Ahmed-Bukhatir-Ya-Adheem.mp3"
+            },
+            {
+              "id": "ep_bukhatir_last_breath",
+              "title": { "en": "Last Breath", "ur": "آخری سانس" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/IlahijeBezMuzike/Last-Breath-Ahmed-Bukhatir.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_bn_muhib",
+          "title": {
+            "en": "Muhib Khan — Bengali Islamic Songs",
+            "ur": "محب خان — بنگالی اسلامی نغمے"
+          },
+          "narrator": {
+            "en": "Muhib Khan",
+            "ur": "محب خان"
+          },
+          "language": "bn",
+          "description": {
+            "en": "Modern Bengali Islamic songs by Muhib Khan, popular among youth.",
+            "ur": "محب خان کے جدید بنگالی اسلامی نغمے، نوجوانوں میں مقبول۔"
+          },
+          "badge": {
+            "en": "Bengali",
+            "ur": "بنگالی"
+          },
+          "cover_color": "#22543d",
+          "cover_url": "https://archive.org/services/img/muhibkhan",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_muhib_elo_mahe_ramzan",
+              "title": { "en": "Elo Mahe Ramzan", "ur": "ایلو ماہے رمضان" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muhibkhan/Elo-Mahe-Ramzan-Elo-Ramzan.mp3"
+            },
+            {
+              "id": "ep_muhib_eider_chand",
+              "title": { "en": "Dekho Oi Uthlo Eider Chand", "ur": "دیکھو اوئی اُٹھلو عید چاند" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muhibkhan/Dekho-Oi-Uthlo-Eider-Chand.mp3"
+            },
+            {
+              "id": "ep_muhib_have_iman",
+              "title": { "en": "Have Iman", "ur": "ہیو ایمان" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muhibkhan/Have-Iman.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "cat_azkar",
+      "category_name": {
+        "en": "Azkar & Du'a (Recitation)",
+        "ur": "اذکار و دعا (تلاوت)"
+      },
+      "icon": "hands",
+      "color": "#2c7a7b",
+      "series": [
+        {
+          "id": "ser_azkar_arabic",
+          "title": {
+            "en": "Morning & Evening Adhkar (Arabic)",
+            "ur": "صبح و شام کے اذکار (عربی)"
+          },
+          "narrator": {
+            "en": "Various Reciters",
+            "ur": "مختلف قاری"
+          },
+          "language": "ar",
+          "description": {
+            "en": "The authentic morning and evening remembrances recited in Arabic.",
+            "ur": "صبح و شام کے مستند اذکار، عربی میں تلاوت کے ساتھ۔"
+          },
+          "badge": {
+            "en": "Arabic",
+            "ur": "عربی"
+          },
+          "cover_color": "#234e52",
+          "cover_url": "https://archive.org/services/img/adkar_up_by_ayoub-islam",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_azkar_ar_02",
+              "title": { "en": "Adhkar — Part 1", "ur": "اذکار — حصہ ۱" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/adkar_up_by_ayoub-islam/athkar_02.mp3"
+            },
+            {
+              "id": "ep_azkar_ar_03",
+              "title": { "en": "Adhkar — Part 2", "ur": "اذکار — حصہ ۲" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/adkar_up_by_ayoub-islam/athkar_03.mp3"
+            },
+            {
+              "id": "ep_azkar_ar_04",
+              "title": { "en": "Adhkar — Part 3", "ur": "اذکار — حصہ ۳" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/adkar_up_by_ayoub-islam/athkar_04.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_azkar_urdu",
+          "title": {
+            "en": "Hisnul Muslim (Urdu Translation)",
+            "ur": "حصنِ مسلم (اردو ترجمہ)"
+          },
+          "narrator": {
+            "en": "Hisnul Muslim",
+            "ur": "حصنِ مسلم"
+          },
+          "language": "ur",
+          "description": {
+            "en": "Daily du'as from Fortress of the Muslim with Urdu translation.",
+            "ur": "حصنِ مسلم کی روزمرہ دعائیں اردو ترجمے کے ساتھ۔"
+          },
+          "badge": {
+            "en": "Urdu",
+            "ur": "اردو"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/Hisnul_Muslim_with_Urdu_Translation_Audio-Book",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_azkar_ur_waking",
+              "title": { "en": "Adhkar on Waking Up", "ur": "نیند سے جاگنے کے اذکار" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Hisnul_Muslim_with_Urdu_Translation_Audio-Book/1.NeendSeJagneKeAzkaar.mp3"
+            },
+            {
+              "id": "ep_azkar_ur_leaving_home",
+              "title": { "en": "Adhkar when Leaving Home", "ur": "گھر سے نکلتے وقت کے اذکار" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Hisnul_Muslim_with_Urdu_Translation_Audio-Book/10.GherSeNikelteWaqtKeAzkaar.mp3"
+            },
+            {
+              "id": "ep_azkar_ur_return_journey",
+              "title": { "en": "Du'a for Returning from a Journey", "ur": "سفر سے واپسی کی دعا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Hisnul_Muslim_with_Urdu_Translation_Audio-Book/103.SafarSeWaapsiKiDua.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "cat_podcast",
+      "category_name": {
+        "en": "Podcasts & Shows",
+        "ur": "پوڈکاسٹ و شوز"
+      },
+      "icon": "mic",
+      "color": "#6b46c1",
+      "series": [
+        {
+          "id": "ser_podcast_islamic_history",
+          "title": {
+            "en": "Islamic History Podcast",
+            "ur": "اسلامی تاریخ پوڈکاسٹ"
+          },
+          "narrator": {
+            "en": "Muttaqi Ismail",
+            "ur": "متقی اسماعیل"
+          },
+          "language": "en",
+          "description": {
+            "en": "An engaging English podcast walking through the great events and figures of Islamic history.",
+            "ur": "اسلامی تاریخ کے عظیم واقعات اور شخصیات پر ایک دلچسپ انگریزی پوڈکاسٹ۔"
+          },
+          "badge": {
+            "en": "English Podcast",
+            "ur": "انگریزی پوڈکاسٹ"
+          },
+          "cover_color": "#553c9a",
+          "cover_url": "https://archive.org/services/img/islamichistorypodcast",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_pod_abu_bakr",
+              "title": { "en": "Abu Bakr and the Caliphate", "ur": "ابوبکر اور خلافت" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamichistorypodcast/2-1%20Abu%20Bakr%20And%20The%20Caliphate.mp3"
+            },
+            {
+              "id": "ep_pod_alexandria",
+              "title": { "en": "Alexandria and Fustat", "ur": "اسکندریہ اور فسطاط" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamichistorypodcast/2-10%20Alexandria%20And%20Fustat.mp3"
+            },
+            {
+              "id": "ep_pod_uthman",
+              "title": { "en": "Uthman and Egypt", "ur": "عثمان اور مصر" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamichistorypodcast/2-13%20Uthman%20And%20Egypt.mp3"
             }
           ]
         }
