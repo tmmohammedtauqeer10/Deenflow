@@ -92,6 +92,49 @@
               "video_url": "https://archive.org/download/MarriageInIslam-ByMuftiIsmailMenk/MarriageInIslamByMuftiIsmailMenk.mp4"
             }
           ]
+        },
+        {
+          "id": "vser_yasir_tajweed",
+          "title": {
+            "en": "Learn Tajweed — Yasir Qadhi",
+            "ur": "تجوید سیکھیں — یاسر قاضی"
+          },
+          "speaker": {
+            "en": "Shaykh Yasir Qadhi",
+            "ur": "شیخ یاسر قاضی"
+          },
+          "language": "en",
+          "tradition": "Sunni",
+          "description": {
+            "en": "A step-by-step English video course teaching the rules of Quranic recitation (tajweed).",
+            "ur": "قرآنی تلاوت کے قواعد (تجوید) سکھانے والا انگریزی ویڈیو کورس، قدم بہ قدم۔"
+          },
+          "badge": {
+            "en": "English • Course",
+            "ur": "انگریزی • کورس"
+          },
+          "thumbnail": "https://archive.org/services/img/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_yasir_l01",
+              "title": { "en": "Lesson 01", "ur": "سبق ۱" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2001of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+            },
+            {
+              "id": "vep_yasir_l02",
+              "title": { "en": "Lesson 02", "ur": "سبق ۲" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2002of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+            },
+            {
+              "id": "vep_yasir_l03",
+              "title": { "en": "Lesson 03", "ur": "سبق ۳" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2003of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+            }
+          ]
         }
       ]
     },
@@ -175,6 +218,49 @@
               "title": { "en": "005 — Surah Al-Fatiha", "ur": "۵ — سورۃ الفاتحہ" },
               "duration_seconds": 0,
               "video_url": "https://archive.org/download/QuranTafseerInUrduFULLDr.IsrarAhmed/005%20of%20108%20-%20Quran%20Tafseer%20in%20Urdu%20-%20-FULL-%20-%20Dr.%20Israr%20Ahmed%20-%20Surah%20Al-Fatiha.mp4"
+            }
+          ]
+        },
+        {
+          "id": "vser_ajmal_qadri",
+          "title": {
+            "en": "Peer Ajmal Raza Qadri — Reminders",
+            "ur": "پیر اجمل رضا قادری — نصیحتیں"
+          },
+          "speaker": {
+            "en": "Peer Ajmal Raza Qadri",
+            "ur": "پیر اجمل رضا قادری"
+          },
+          "language": "ur",
+          "tradition": "Sunni",
+          "description": {
+            "en": "Short, powerful Urdu reminders by the popular Sunni scholar Peer Ajmal Raza Qadri.",
+            "ur": "مقبول سنی عالم پیر اجمل رضا قادری کی مختصر اور پُراثر اردو نصیحتیں۔"
+          },
+          "badge": {
+            "en": "Urdu • Sunni",
+            "ur": "اردو • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/aqeeda-by-peer-ajmal-raza-qadri-short-ytshorts-by.-moji-tube-ripper.com.-3gp",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_ajmal_aqeeda",
+              "title": { "en": "Aqeeda (Belief)", "ur": "عقیدہ" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/aqeeda-by-peer-ajmal-raza-qadri-short-ytshorts-by.-moji-tube-ripper.com.-3gp/Aqeeda%20By%20Peer%20Ajmal%20Raza%20Qadri%20%23short%20%23ytshorts%20By.Moji%20%5BTubeRipper.com%5D.mp4"
+            },
+            {
+              "id": "vep_ajmal_allah_ki_muhabat",
+              "title": { "en": "Allah Ki Muhabbat (Love of Allah)", "ur": "اللہ کی محبت" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/aqeeda-by-peer-ajmal-raza-qadri-short-ytshorts-by.-moji-tube-ripper.com.-3gp/ALLAH%20Ki%20MuhabatPeer%20Ajmal%20Raza%20Qadri%20Beautiful%20Status%20%23Islamic%20%23muhabat%20%23allahBy.Moji%20%5BTubeRipper.com%5D.mp4"
+            },
+            {
+              "id": "vep_ajmal_ansoo",
+              "title": { "en": "Ansoo (Tears)", "ur": "آنسو" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/aqeeda-by-peer-ajmal-raza-qadri-short-ytshorts-by.-moji-tube-ripper.com.-3gp/Ansoo%20By%20Ajmal%20Raza%20Qadri%20%23shorts%20%23ytshorts%20%23islam%20By.Moji%20%5BTubeRipper.com%5D.mp4"
             }
           ]
         }
