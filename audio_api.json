@@ -233,36 +233,45 @@
       "color": "#8b4513",
       "series": [
         {
-          "id": "ser_tafsir_juz_amma",
+          "id": "ser_tafsir_ahsanul_bayan",
           "title": {
-            "en": "Tafsir of Juz Amma",
-            "ur": "تفسیر پارہ عمّ"
+            "en": "Tafseer Ahsanul Bayan (Urdu Audiobook)",
+            "ur": "تفسیر احسن البیان (اردو آڈیو بک)"
           },
           "narrator": {
-            "en": "Various Speakers",
-            "ur": "مختلف مقررین"
+            "en": "Ahsanul Bayan",
+            "ur": "احسن البیان"
           },
           "language": "ur",
           "description": {
-            "en": "Verse-by-verse explanation of the last juz of the Quran, in simple Urdu.",
-            "ur": "قرآن کے آخری پارے کی آیت بہ آیت آسان اردو میں تشریح۔"
+            "en": "Surah-by-surah Quranic commentary in Urdu — a full audiobook tafsir.",
+            "ur": "سورہ بہ سورہ قرآنی تفسیر اردو میں — مکمل آڈیو بک تفسیر۔"
           },
           "badge": {
-            "en": "Placeholder",
-            "ur": "نمونہ"
+            "en": "Urdu Tafsir",
+            "ur": "اردو تفسیر"
           },
           "cover_color": "#6b3410",
-          "cover_url": "",
+          "cover_url": "https://archive.org/services/img/1-alfatiha",
           "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
           "episodes": [
             {
-              "id": "ep_surah_naba",
+              "id": "ep_tafsir_fatiha",
               "title": {
-                "en": "01 — Surah An-Naba",
-                "ur": "۱ — سورۃ النبأ"
+                "en": "Surah Al-Fatiha",
+                "ur": "سورۃ الفاتحہ"
               },
               "duration_seconds": 0,
-              "audio_url": "https://archive.org/download/REPLACE_ME_tafsir/01_an_naba.mp3"
+              "audio_url": "https://archive.org/download/1-alfatiha/1%20Alfatiha.mp3"
+            },
+            {
+              "id": "ep_tafsir_baqarah",
+              "title": {
+                "en": "Surah Al-Baqarah",
+                "ur": "سورۃ البقرہ"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/1-alfatiha/10%20Albaqarah.mp3"
             }
           ]
         }
@@ -601,25 +610,34 @@
           },
           "language": "ml",
           "description": {
-            "en": "Malayalam nasheed and Mappila pattu. Placeholder — add real Archive.org links before release.",
-            "ur": "ملیالم نشید اور مَپِّلا پاٹُو۔ نمونہ — ریلیز سے پہلے اصل لنکس شامل کریں۔"
+            "en": "Malayalam Mappila songs (madh / nasheed) — gentle praise songs, great for children and families.",
+            "ur": "ملیالم مَپِّلا نغمے (مدح / نشید) — بچوں اور گھرانوں کے لیے بہترین۔"
           },
           "badge": {
-            "en": "Placeholder",
-            "ur": "نمونہ"
+            "en": "Malayalam",
+            "ur": "ملیالم"
           },
           "cover_color": "#702459",
-          "cover_url": "",
+          "cover_url": "https://archive.org/services/img/AlifintePorulayaNadhanAllahuNjagalkkThunayakaneIslamicChildrensMappilaSongs",
           "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
           "episodes": [
             {
-              "id": "ep_ml_01",
+              "id": "ep_ml_alifinte_porulaya",
               "title": {
-                "en": "01 — Mappila Pattu",
-                "ur": "۱ — مَپِّلا پاٹُو"
+                "en": "Alifinte Porulaya Nadhan Allahu",
+                "ur": "الیفنتے پورُلایا نادھن اللہ"
               },
               "duration_seconds": 0,
-              "audio_url": "https://archive.org/download/REPLACE_ME_malayalam/01.mp3"
+              "audio_url": "https://archive.org/download/AlifintePorulayaNadhanAllahuNjagalkkThunayakaneIslamicChildrensMappilaSongs/Alifinte%20Porulaya%20Nadhan%20Allahu%20Njagalkk%20Thunayakane___________Islamic%20Children%27s%20Mappila%20Songs__.MP3"
+            },
+            {
+              "id": "ep_ml_arorum_parayathe",
+              "title": {
+                "en": "Arorum Parayathe Arorum Kanathe",
+                "ur": "اَرورُم پارایاتھے اَرورُم کاناتھے"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ArorumParayatheArorumKanatheSingerByNasninIslamicChildrensMappilaSongs/Arorum%20Parayathe%20Arorum%20Kanathe%20Singer%20by%20%20Nasnin___________Islamic%20Children%27s%20Mappila%20Songs_____.mp3"
             }
           ]
         },
@@ -816,6 +834,153 @@
               "title": { "en": "Aey Meray Maalik", "ur": "اے میرے مالک" },
               "duration_seconds": 0,
               "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Anas-Yunus/AeyMerayMaalik.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_en_sami",
+          "title": {
+            "en": "Sami Yusuf — Collection",
+            "ur": "سامی یوسف — کلیکشن"
+          },
+          "narrator": {
+            "en": "Sami Yusuf",
+            "ur": "سامی یوسف"
+          },
+          "language": "en",
+          "description": {
+            "en": "Globally loved nasheeds by Sami Yusuf, including the multi-language 'Hasbi Rabbi'.",
+            "ur": "سامی یوسف کے دنیا بھر میں مقبول نشید، بشمول کثیر اللسانی 'حسبی ربی'۔"
+          },
+          "badge": {
+            "en": "English",
+            "ur": "انگریزی"
+          },
+          "cover_color": "#1a365d",
+          "cover_url": "https://archive.org/services/img/SamiYusuf_201306",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_sy_hasbi_rabbi",
+              "title": { "en": "Hasbi Rabbi (English)", "ur": "حسبی ربی (انگریزی)" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/SamiYusuf_201306/Sami_Yousef-Hasbi_Rabbi%28enghlich%29.mp3"
+            },
+            {
+              "id": "ep_sy_make_a_prayer",
+              "title": { "en": "Make A Prayer", "ur": "میک اے پریئر" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/SamiYusuf_201306/Sami_Yousef-Make_A_Prayer.mp3"
+            },
+            {
+              "id": "ep_sy_free",
+              "title": { "en": "Free", "ur": "فری" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/SamiYusuf_201306/Sami_Yousef-Free.mp3"
+            },
+            {
+              "id": "ep_sy_eid_song",
+              "title": { "en": "Eid Song", "ur": "عید سونگ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/SamiYusuf_201306/Sami_Yousef-Eid_Song.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_en_harris",
+          "title": {
+            "en": "Harris J — Salam (Album)",
+            "ur": "حارث جے — سلام (البم)"
+          },
+          "narrator": {
+            "en": "Harris J",
+            "ur": "حارث جے"
+          },
+          "language": "en",
+          "description": {
+            "en": "Modern, youth-friendly English nasheeds from Harris J's debut album Salam.",
+            "ur": "حارث جے کے پہلے البم 'سلام' سے جدید، نوجوانوں کے لیے انگریزی نشید۔"
+          },
+          "badge": {
+            "en": "English • Youth",
+            "ur": "انگریزی • نوجوان"
+          },
+          "cover_color": "#2c5282",
+          "cover_url": "https://archive.org/services/img/HarrisJ_201701",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_hj_rasoolallah",
+              "title": { "en": "Rasool'Allah", "ur": "رسول اللہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/HarrisJ_201701/Rasool%27Allah.mp3"
+            },
+            {
+              "id": "ep_hj_my_hero",
+              "title": { "en": "My Hero", "ur": "مائی ہیرو" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/HarrisJ_201701/My%20Hero.mp3"
+            },
+            {
+              "id": "ep_hj_paradise",
+              "title": { "en": "Paradise", "ur": "پیراڈائز" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/HarrisJ_201701/Paradise.mp3"
+            },
+            {
+              "id": "ep_hj_good_life",
+              "title": { "en": "Good Life", "ur": "گُڈ لائف" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/HarrisJ_201701/Good%20Life.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_naat_siddiq",
+          "title": {
+            "en": "Siddiq Ismail — Naat Collection",
+            "ur": "صدیق اسماعیل — نعت کلیکشن"
+          },
+          "narrator": {
+            "en": "Siddiq Ismail",
+            "ur": "صدیق اسماعیل"
+          },
+          "language": "ur",
+          "description": {
+            "en": "Classic Urdu naats in the rich voice of Siddiq Ismail.",
+            "ur": "صدیق اسماعیل کی پُرسوز آواز میں کلاسیکی اردو نعتیں۔"
+          },
+          "badge": {
+            "en": "Urdu Naat",
+            "ur": "اردو نعت"
+          },
+          "cover_color": "#3c366b",
+          "cover_url": "https://archive.org/services/img/MujhKoTaibaMein",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_siddiq_mujh_ko_taiba",
+              "title": { "en": "Mujh Ko Taiba Mein", "ur": "مجھ کو طیبہ میں" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/MujhKoTaibaMein/Mujh%20Ko%20Taiba%20Mein.mp3"
+            },
+            {
+              "id": "ep_siddiq_madinay_ka_safar",
+              "title": { "en": "Madinay Ka Safar Hai", "ur": "مدینے کا سفر ہے" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/MadinayKaSafarHai/Madinay%20Ka%20Safar%20Hai.mp3"
+            },
+            {
+              "id": "ep_siddiq_gumbad_e_khizra",
+              "title": { "en": "Gumbad-e-Khizra Ki", "ur": "گنبدِ خضرا کی" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Lam_Yati_Nazeero_Kafi_Nazarin/Gumbad-e-Khizra%20Ki.mp3"
+            },
+            {
+              "id": "ep_siddiq_jise_chaha",
+              "title": { "en": "Jise Chaha Dar Pe Bula Liya", "ur": "جسے چاہا در پہ بلا لیا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Lam_Yati_Nazeero_Kafi_Nazarin/Jise%20Chaha%20Dar%20Pe%20Bula%20Liya.mp3"
             }
           ]
         }
