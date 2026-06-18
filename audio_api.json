@@ -432,6 +432,196 @@
               "audio_url": "https://archive.org/download/maherzainforgiveme_201605/07%20-%20Assalamu%20Alayka%20%28Vocals%20Only%20-%20No%20Music%29.mp3"
             }
           ]
+        },
+        {
+          "id": "ser_nasheed_ar",
+          "title": {
+            "en": "Arabic Nasheeds — Mishary Alafasy",
+            "ur": "عربی نشید — مشاری العفاسی"
+          },
+          "narrator": {
+            "en": "Mishary Rashid Alafasy",
+            "ur": "مشاری راشد العفاسی"
+          },
+          "language": "ar",
+          "description": {
+            "en": "Classic Arabic anasheed by the renowned reciter Mishary Rashid Alafasy.",
+            "ur": "مشہور قاری مشاری راشد العفاسی کی کلاسیکی عربی اناشید۔"
+          },
+          "badge": {
+            "en": "Arabic",
+            "ur": "عربی"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/anasheed-mshary-alafasy-89-nasheed",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_ar_dawman_laka_elhamd",
+              "title": {
+                "en": "Dawman Laka al-Hamd (Always Praise to You)",
+                "ur": "دائماً لک الحمد"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/anasheed-mshary-alafasy-89-nasheed/04.Dawman.Laka.El.Hamd.mp3"
+            },
+            {
+              "id": "ep_ar_agheb",
+              "title": {
+                "en": "Agheb",
+                "ur": "أُجِیب"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/anasheed-mshary-alafasy-89-nasheed/01.Agheb.mp3"
+            },
+            {
+              "id": "ep_ar_jarrabtuha",
+              "title": {
+                "en": "Jarrabtuha",
+                "ur": "جرّبتُها"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/anasheed-mshary-alafasy-89-nasheed/06.Jarrabtuha.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_bn",
+          "title": {
+            "en": "Bengali Islamic Songs — Kazi Nazrul",
+            "ur": "بنگالی اسلامی نغمے — کاظی نذرل"
+          },
+          "narrator": {
+            "en": "Kazi Nazrul Islam",
+            "ur": "کاظی نذرل اسلام"
+          },
+          "language": "bn",
+          "description": {
+            "en": "Hamd, naat and gojol in Bengali by the legendary poet Kazi Nazrul Islam.",
+            "ur": "عظیم شاعر کاظی نذرل اسلام کی بنگالی حمد، نعت اور گوجول۔"
+          },
+          "badge": {
+            "en": "Bengali",
+            "ur": "بنگالی"
+          },
+          "cover_color": "#22543d",
+          "cover_url": "https://archive.org/services/img/kazinazrul",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_bn_allahu_allah",
+              "title": {
+                "en": "Allahu Allah (Hamd)",
+                "ur": "اللہ اللہ (حمد)"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/kazinazrul/AA-Allahu-Allah-Allah-Allah.mp3"
+            },
+            {
+              "id": "ep_bn_ami_jodi_arab_hotam",
+              "title": {
+                "en": "Ami Jodi Arab Hotam",
+                "ur": "آمی جودی عرب ہوتام"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/kazinazrul/AA-Ami-Jodi-Arab-Hotam.mp3"
+            },
+            {
+              "id": "ep_bn_fatimar_dua",
+              "title": {
+                "en": "Fatimar Dua Holo Kobul",
+                "ur": "فاطمار دعا ہولو کبول"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/kazinazrul/AA-Fatimar-Dua-Holo-Kobul.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_id",
+          "title": {
+            "en": "Indonesian Sholawat — Cinta Rasul",
+            "ur": "انڈونیشیائی صلوات — چنتا رسول"
+          },
+          "narrator": {
+            "en": "Haddad Alwi & Sulis",
+            "ur": "حداد علوی و سولِس"
+          },
+          "language": "id",
+          "description": {
+            "en": "Beloved Indonesian sholawat (praise of the Prophet ﷺ) from the Cinta Rasul series.",
+            "ur": "سلسلہ 'چنتا رسول' سے مقبول انڈونیشیائی صلوات (نبی ﷺ کی تعریف)۔"
+          },
+          "badge": {
+            "en": "Indonesian",
+            "ur": "انڈونیشیائی"
+          },
+          "cover_color": "#234e52",
+          "cover_url": "https://archive.org/services/img/CintaRosul",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_id_muhammad_nabiku",
+              "title": {
+                "en": "Muhammad Nabiku",
+                "ur": "محمد نبیکو"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/CintaRosul/HADAD%20ALWI%20-%20muhammad%20nabiku.mp3"
+            },
+            {
+              "id": "ep_id_rindu_muhammad",
+              "title": {
+                "en": "Rindu Muhammad",
+                "ur": "رِندو محمد"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/CintaRosul/HADAD%20ALWI%20-%20rindu%20muhammad.mp3"
+            },
+            {
+              "id": "ep_id_sidnan_nabi",
+              "title": {
+                "en": "Sidnan Nabi",
+                "ur": "سیدنا نبی"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/CintaRosul/07%20cinta%20rasul%20-%20sidnan%20nabi.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_ml",
+          "title": {
+            "en": "Malayalam Islamic Songs",
+            "ur": "ملیالم اسلامی نغمے"
+          },
+          "narrator": {
+            "en": "Various Artists",
+            "ur": "مختلف فنکار"
+          },
+          "language": "ml",
+          "description": {
+            "en": "Malayalam nasheed and Mappila pattu. Placeholder — add real Archive.org links before release.",
+            "ur": "ملیالم نشید اور مَپِّلا پاٹُو۔ نمونہ — ریلیز سے پہلے اصل لنکس شامل کریں۔"
+          },
+          "badge": {
+            "en": "Placeholder",
+            "ur": "نمونہ"
+          },
+          "cover_color": "#702459",
+          "cover_url": "",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_ml_01",
+              "title": {
+                "en": "01 — Mappila Pattu",
+                "ur": "۱ — مَپِّلا پاٹُو"
+              },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/REPLACE_ME_malayalam/01.mp3"
+            }
+          ]
         }
       ]
     }
