@@ -1130,6 +1130,172 @@
               "audio_url": "https://archive.org/download/YaRabbana/Jab%20Husan%20tha%20Un%20ka.mp3"
             }
           ]
+        },
+        {
+          "id": "ser_naat_pashto",
+          "title": {
+            "en": "Pashto Naat — Khkuly Madeena",
+            "ur": "پشتو نعت — ښکلې مدینہ"
+          },
+          "narrator": {
+            "en": "Asmatullah Jarar",
+            "ur": "عصمت اللہ جرار"
+          },
+          "language": "ps",
+          "description": {
+            "en": "Pashto naats in praise of Madeena and the Prophet ﷺ from the Khkuly Madeena album.",
+            "ur": "البم 'ښکلې مدینہ' سے مدینہ اور نبی ﷺ کی شان میں پشتو نعتیں۔"
+          },
+          "badge": {
+            "en": "Pashto",
+            "ur": "پشتو"
+          },
+          "cover_color": "#744210",
+          "cover_url": "https://archive.org/services/img/Khkuly-MADEENA-Album-6",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_ps_allah_jannatoona",
+              "title": { "en": "Allah Ba Darkre Pa Badla Ke Jannatoona", "ur": "اللہ به درکړې په بدله کې جنتونه" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Khkuly-MADEENA-Album-6/1%2CALLAH%20ba%20darkre%20pa%20badla%20k%20jannatoona.MP3"
+            },
+            {
+              "id": "ep_ps_rahmatoona",
+              "title": { "en": "Pre Ravareege La Asmana Rahmatoona", "ur": "پرې راورېږي له آسمانه رحمتونه" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Khkuly-MADEENA-Album-6/11%2CPry%20ravareege%20la%20asmana%20rahmatoona.MP3"
+            },
+            {
+              "id": "ep_ps_da_zra_pa_kor",
+              "title": { "en": "Da Zra Pa Kor Ke Me Osege", "ur": "د زړه په کور کې مې اوسېږې" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Khkuly-MADEENA-Album-6/3%2CDa%20zra%20pa%20kor%20k%20me%20osege.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_bs",
+          "title": {
+            "en": "Bosnian Ilahije — Fuad Seferagić",
+            "ur": "بوسنیائی الٰہی — فؤاد سفراگچ"
+          },
+          "narrator": {
+            "en": "Fuad Seferagić",
+            "ur": "فؤاد سفراگچ"
+          },
+          "language": "bs",
+          "description": {
+            "en": "Bosnian ilahije (devotional hymns) by the well-loved performer Fuad Seferagić.",
+            "ur": "معروف فنکار فؤاد سفراگچ کی بوسنیائی الٰہی (عقیدت بھرے نغمے)۔"
+          },
+          "badge": {
+            "en": "Bosnian",
+            "ur": "بوسنیائی"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/fuad_seferagic",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_bs_merhaba",
+              "title": { "en": "Merhaba (Ilahija)", "ur": "مرحبا (الٰہی)" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/fuad_seferagic/merhaba_ilahija_live.mp3"
+            },
+            {
+              "id": "ep_bs_mi_stojimo",
+              "title": { "en": "Mi Stojimo Ko Bedemi", "ur": "می سٹوییمو کو بیدیمی" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/fuad_seferagic/mi_stojimo_ko_bedemi.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_sw",
+          "title": {
+            "en": "Swahili — Aqidatul Awam",
+            "ur": "سواحلی — عقیدۃ العوام"
+          },
+          "narrator": {
+            "en": "Various Reciters",
+            "ur": "مختلف قاری"
+          },
+          "language": "sw",
+          "description": {
+            "en": "The classic creed poem Aqidatul Awam recited in Swahili — a melodious way to learn the basics of faith.",
+            "ur": "مشہور منظوم عقیدہ 'عقیدۃ العوام' سواحلی میں — ایمان کی بنیادیں سیکھنے کا خوش الحان طریقہ۔"
+          },
+          "badge": {
+            "en": "Swahili",
+            "ur": "سواحلی"
+          },
+          "cover_color": "#22543d",
+          "cover_url": "https://archive.org/services/img/aqidatul-awam_202103",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_sw_utangulizi",
+              "title": { "en": "Aqida — Utangulizi (Intro)", "ur": "عقیدہ — تعارف" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/aqidatul-awam_202103/01-%20A%27qida_utangulizi.mp3"
+            },
+            {
+              "id": "ep_sw_alhamdulillah",
+              "title": { "en": "Fadhila za Alhamdulillah", "ur": "الحمد للہ کی فضیلت" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/aqidatul-awam_202103/03-%20A%27qida_fadhila%20za%20Alhamdulillah.mp3"
+            },
+            {
+              "id": "ep_sw_swala_salamu",
+              "title": { "en": "Swala na Salamu kwa Mtume ﷺ", "ur": "نبی ﷺ پر درود و سلام" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/aqidatul-awam_202103/04-%20A%27qida_swala%20na%20salamu%20zimfikie%20Bwana%20Mtume%20Muhammad.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_fa",
+          "title": {
+            "en": "Persian Nasheed (Farsi)",
+            "ur": "فارسی نشید"
+          },
+          "narrator": {
+            "en": "Various Artists",
+            "ur": "مختلف فنکار"
+          },
+          "language": "fa",
+          "description": {
+            "en": "Spiritual nasheeds in Persian (Farsi) reflecting on faith and the life of this world.",
+            "ur": "فارسی میں روحانی نشید جو ایمان اور دنیاوی زندگی پر غور کراتے ہیں۔"
+          },
+          "badge": {
+            "en": "Persian",
+            "ur": "فارسی"
+          },
+          "cover_color": "#3c366b",
+          "cover_url": "https://archive.org/services/img/FarsiNasheed",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_fa_che_khosh_bashad",
+              "title": { "en": "Che Khosh Bashad", "ur": "چہ خوش باشد" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/FarsiNasheed/CheKhoshBashad.mp3"
+            },
+            {
+              "id": "ep_fa_donya_hama",
+              "title": { "en": "Donya Hama Chezash", "ur": "دنیا ہمہ چیزش" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/FarsiNasheed/DonyaHamaChezash.mp3"
+            },
+            {
+              "id": "ep_fa_ay_khoda",
+              "title": { "en": "Ay Khoda Ya Mihanam", "ur": "اے خدا یا میہنم" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/FarsiNasheed/AyKhudaYaMiahanam.mp3"
+            }
+          ]
         }
       ]
     }
