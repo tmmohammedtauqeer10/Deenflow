@@ -622,6 +622,202 @@
               "audio_url": "https://archive.org/download/REPLACE_ME_malayalam/01.mp3"
             }
           ]
+        },
+        {
+          "id": "ser_nasheed_en_thankyou",
+          "title": {
+            "en": "Maher Zain — Thank You Allah (Album)",
+            "ur": "ماہر زین — تھینک یو اللہ (البم)"
+          },
+          "narrator": {
+            "en": "Maher Zain",
+            "ur": "ماہر زین"
+          },
+          "language": "en",
+          "description": {
+            "en": "The debut album that made Maher Zain a household name — English nasheeds full of hope and gratitude.",
+            "ur": "ماہر زین کو شہرت دلانے والا پہلا البم — امید اور شکر سے بھرپور انگریزی نشید۔"
+          },
+          "badge": {
+            "en": "English Album",
+            "ur": "انگریزی البم"
+          },
+          "cover_color": "#1a365d",
+          "cover_url": "https://archive.org/services/img/ThankYouAllah_201310",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_mz_always_be_there",
+              "title": { "en": "Always Be There", "ur": "آلویز بی دیئر" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ThankYouAllah_201310/1-%20Always%20be%20there.mp3"
+            },
+            {
+              "id": "ep_mz_insha_allah",
+              "title": { "en": "Insha Allah", "ur": "ان شاء اللہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ThankYouAllah_201310/3%20-%20Insha%20Allah.mp3"
+            },
+            {
+              "id": "ep_mz_open_your_eyes",
+              "title": { "en": "Open Your Eyes", "ur": "اوپن یور آئیز" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ThankYouAllah_201310/13-%20Open%20Your%20Eyes.mp3"
+            },
+            {
+              "id": "ep_mz_awaken",
+              "title": { "en": "Awaken", "ur": "اویکن" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ThankYouAllah_201310/11-%20Awaken.mp3"
+            },
+            {
+              "id": "ep_mz_hold_my_hand",
+              "title": { "en": "Hold My Hand", "ur": "ہولڈ مائی ہینڈ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/ThankYouAllah_201310/10-%20hold%20my%20hand.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_en_mesut",
+          "title": {
+            "en": "Mesut Kurtis — Tabassam (Vocals Only)",
+            "ur": "مسعود کُرتِس — تبسّم (صرف آواز)"
+          },
+          "narrator": {
+            "en": "Mesut Kurtis",
+            "ur": "مسعود کُرتِس"
+          },
+          "language": "en",
+          "description": {
+            "en": "The acapella (vocals-only) edition of Mesut Kurtis's acclaimed Tabassam album — no instruments.",
+            "ur": "مسعود کُرتِس کے مشہور البم 'تبسّم' کا اکاپیلا (صرف آواز) ورژن — بغیر موسیقی۔"
+          },
+          "badge": {
+            "en": "Acapella • No Music",
+            "ur": "اکاپیلا • بغیر موسیقی"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/Mesut_Kurtis_Album_Tabassam_Vocals_Only_Version",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_mk_alhamdulillah",
+              "title": { "en": "Al-Hamdu Lillah", "ur": "الحمد للہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Mesut_Kurtis_Album_Tabassam_Vocals_Only_Version/Al-Hamdu%20Lillah%20%28Acapella%20Version%29%20-%20Mesut%20Kurtis.mp3"
+            },
+            {
+              "id": "ep_mk_assalatu_wa_assalam",
+              "title": { "en": "Assalatu Wa Assalam", "ur": "الصلاۃ والسلام" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Mesut_Kurtis_Album_Tabassam_Vocals_Only_Version/Assalatu%20Wa%20Assalam%20%28Acapella%20Version%29%20-%20Mesut%20Kurtis.mp3"
+            },
+            {
+              "id": "ep_mk_adnani",
+              "title": { "en": "Adnani", "ur": "عدنانی" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Mesut_Kurtis_Album_Tabassam_Vocals_Only_Version/Adnani%20%28Acapella%20Version%29%20-%20Mesut%20Kurtis.mp3"
+            },
+            {
+              "id": "ep_mk_dua",
+              "title": { "en": "Dua", "ur": "دعا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/Mesut_Kurtis_Album_Tabassam_Vocals_Only_Version/Dua%20%28Acapella%20Version%29%20-%20Mesut%20Kurtis.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_naat_owais",
+          "title": {
+            "en": "Owais Raza Qadri — Naat Shareef Collection",
+            "ur": "اویس رضا قادری — نعت شریف کلیکشن"
+          },
+          "narrator": {
+            "en": "Owais Raza Qadri",
+            "ur": "اویس رضا قادری"
+          },
+          "language": "ur",
+          "description": {
+            "en": "A playlist of beloved Urdu naats by one of the most popular naat khwans, Owais Raza Qadri.",
+            "ur": "مقبول ترین نعت خوانوں میں سے ایک، اویس رضا قادری کی پسندیدہ اردو نعتوں کی پلے لسٹ۔"
+          },
+          "badge": {
+            "en": "Urdu Playlist",
+            "ur": "اردو پلے لسٹ"
+          },
+          "cover_color": "#2c5282",
+          "cover_url": "https://archive.org/services/img/islamiccollection_201912",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_owais_allahumma_sallay",
+              "title": { "en": "Allahumma Sallay Alaa", "ur": "اللھم صلِّ علیٰ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamiccollection_201912/Allahumma-Sallay-Alaa.mp3"
+            },
+            {
+              "id": "ep_owais_amina_ka_laal",
+              "title": { "en": "Amina Ka Laal Aya", "ur": "آمنہ کا لال آیا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamiccollection_201912/Amina-Ka-Laal-Aya.mp3"
+            },
+            {
+              "id": "ep_owais_dar_e_sarkar",
+              "title": { "en": "Dar-e-Sarkar", "ur": "درِ سرکار" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamiccollection_201912/Dar-e-Sarkar.mp3"
+            },
+            {
+              "id": "ep_owais_durood_lab_par",
+              "title": { "en": "Durood Lab Par Khayal Dil Mein", "ur": "درود لب پر خیال دل میں" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/islamiccollection_201912/Durood-Lab-Par-Khayal-Dil-Mein.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_naat_anas",
+          "title": {
+            "en": "Anas Yunus — Naat Collection",
+            "ur": "انس یونس — نعت کلیکشن"
+          },
+          "narrator": {
+            "en": "Anas Yunus",
+            "ur": "انس یونس"
+          },
+          "language": "ur",
+          "description": {
+            "en": "Heartfelt Urdu naats by Anas Yunus, loved by youth and families alike.",
+            "ur": "انس یونس کی دل کو چھو لینے والی اردو نعتیں، نوجوانوں اور گھرانوں میں یکساں مقبول۔"
+          },
+          "badge": {
+            "en": "Urdu Album",
+            "ur": "اردو البم"
+          },
+          "cover_color": "#3c366b",
+          "cover_url": "https://archive.org/services/img/AhnafMedia-Audios-Naat-Anas-Yunus",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_anas_aap_ki_naatain",
+              "title": { "en": "Aap Ki Naatain", "ur": "آپ کی نعتیں" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Anas-Yunus/AapKiNaatain.mp3"
+            },
+            {
+              "id": "ep_anas_allah_allah",
+              "title": { "en": "Allah Allah", "ur": "اللہ اللہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Anas-Yunus/AllahAllah.mp3"
+            },
+            {
+              "id": "ep_anas_aey_meray_maalik",
+              "title": { "en": "Aey Meray Maalik", "ur": "اے میرے مالک" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/AhnafMedia-Audios-Naat-Anas-Yunus/AeyMerayMaalik.mp3"
+            }
+          ]
         }
       ]
     }
