@@ -1,0 +1,184 @@
+{
+  "api_version": "1.0",
+  "last_updated": "2026-06-17",
+  "app_name": "DeenFlow",
+  "content_type": "video_series",
+  "tradition": "Sunni",
+  "default_language": "en",
+  "supported_languages": ["en", "ur"],
+  "cdn": "Archive.org",
+  "_note": "Islamic speech/lecture videos by Sunni scholars. video_url values are verified Archive.org direct MP4 links (format: https://archive.org/download/<identifier>/<url-encoded-file>.mp4). Use thumbnail for the poster image.",
+  "total_categories": 2,
+  "categories": [
+    {
+      "category_id": "vcat_speech_en",
+      "category_name": {
+        "en": "Islamic Speeches (English)",
+        "ur": "اسلامی تقاریر (انگریزی)"
+      },
+      "icon": "video",
+      "color": "#1a6b3c",
+      "series": [
+        {
+          "id": "vser_menk_lectures",
+          "title": {
+            "en": "Mufti Menk — Selected Lectures",
+            "ur": "مفتی مینک — منتخب لیکچرز"
+          },
+          "speaker": {
+            "en": "Mufti Ismail Menk",
+            "ur": "مفتی اسماعیل مینک"
+          },
+          "language": "en",
+          "tradition": "Sunni",
+          "description": {
+            "en": "Practical, uplifting talks by Mufti Ismail Menk on everyday faith and character.",
+            "ur": "مفتی اسماعیل مینک کے روزمرہ ایمان اور اخلاق پر عملی اور حوصلہ افزا بیانات۔"
+          },
+          "badge": {
+            "en": "English • Sunni",
+            "ur": "انگریزی • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/CollectionOfMuftiMenkIslamicLectures",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_menk_advice_hajjis",
+              "title": { "en": "Advice to the Hajjis", "ur": "حاجیوں کے لیے نصیحت" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/AdviceToHajjies-MuftiIsmailMenk.mp4"
+            },
+            {
+              "id": "vep_menk_benefit_learning",
+              "title": { "en": "The Benefit of Learning", "ur": "علم کا فائدہ" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/BenefitOfLearning-MuftiMenk.mp4"
+            },
+            {
+              "id": "vep_menk_fiqh_of_love",
+              "title": { "en": "Fiqh of Love", "ur": "محبت کا فقہ" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/FiqhOfLove-New2015LectureFromMuftiMenk2015.mp4"
+            }
+          ]
+        },
+        {
+          "id": "vser_menk_marriage",
+          "title": {
+            "en": "Marriage in Islam — Mufti Menk",
+            "ur": "اسلام میں شادی — مفتی مینک"
+          },
+          "speaker": {
+            "en": "Mufti Ismail Menk",
+            "ur": "مفتی اسماعیل مینک"
+          },
+          "language": "en",
+          "tradition": "Sunni",
+          "description": {
+            "en": "A full lecture on the rights, etiquette and beauty of marriage in Islam.",
+            "ur": "اسلام میں شادی کے حقوق، آداب اور خوبصورتی پر مکمل لیکچر۔"
+          },
+          "badge": {
+            "en": "English • Sunni",
+            "ur": "انگریزی • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/MarriageInIslam-ByMuftiIsmailMenk",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_menk_marriage_full",
+              "title": { "en": "Marriage in Islam (Full Lecture)", "ur": "اسلام میں شادی (مکمل لیکچر)" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/MarriageInIslam-ByMuftiIsmailMenk/MarriageInIslamByMuftiIsmailMenk.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "vcat_speech_ur",
+      "category_name": {
+        "en": "Islamic Speeches (Urdu)",
+        "ur": "اسلامی تقاریر (اردو)"
+      },
+      "icon": "video",
+      "color": "#276749",
+      "series": [
+        {
+          "id": "vser_tariq_jameel",
+          "title": {
+            "en": "Maulana Tariq Jameel — Bayan",
+            "ur": "مولانا طارق جمیل — بیان"
+          },
+          "speaker": {
+            "en": "Maulana Tariq Jameel",
+            "ur": "مولانا طارق جمیل"
+          },
+          "language": "ur",
+          "tradition": "Sunni",
+          "description": {
+            "en": "Heart-softening Urdu bayans by Maulana Tariq Jameel on repentance, mercy and akhirah.",
+            "ur": "مولانا طارق جمیل کے توبہ، رحمت اور آخرت پر دل کو نرم کرنے والے اردو بیانات۔"
+          },
+          "badge": {
+            "en": "Urdu • Sunni",
+            "ur": "اردو • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/LutasKiQomKaGunahAurAllahKaAzabByMaulanaTariqJameel",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_tj_lut_qom",
+              "title": { "en": "The Sin of the People of Lut & Allah's Punishment", "ur": "قومِ لوط کا گناہ اور اللہ کا عذاب" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/LutasKiQomKaGunahAurAllahKaAzabByMaulanaTariqJameel/Lut%20%28as%29%20Ki%20Qom%20Ka%20Gunah%20Aur%20Allah%20Ka%20Azab%20by%20Maulana%20Tariq%20Jameel.mp4"
+            },
+            {
+              "id": "vep_tj_ramadan_ep01",
+              "title": { "en": "Maah-e-Ramadan — Episode 01", "ur": "ماہِ رمضان — قسط ۱" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/LutasKiQomKaGunahAurAllahKaAzabByMaulanaTariqJameel/MaahERamadanWithMaulanaTariqJameel-Episode01__part1.mp4"
+            }
+          ]
+        },
+        {
+          "id": "vser_israr_tafseer",
+          "title": {
+            "en": "Dr. Israr Ahmed — Quran Tafseer (Urdu)",
+            "ur": "ڈاکٹر اسرار احمد — قرآن تفسیر (اردو)"
+          },
+          "speaker": {
+            "en": "Dr. Israr Ahmed",
+            "ur": "ڈاکٹر اسرار احمد"
+          },
+          "language": "ur",
+          "tradition": "Sunni",
+          "description": {
+            "en": "A landmark Urdu video tafseer of the Quran by Dr. Israr Ahmed.",
+            "ur": "ڈاکٹر اسرار احمد کی قرآن کی معروف اردو ویڈیو تفسیر۔"
+          },
+          "badge": {
+            "en": "Urdu • Tafsir",
+            "ur": "اردو • تفسیر"
+          },
+          "thumbnail": "https://archive.org/services/img/QuranTafseerInUrduFULLDr.IsrarAhmed",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_israr_intro",
+              "title": { "en": "001 — Introduction", "ur": "۱ — تعارف" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/QuranTafseerInUrduFULLDr.IsrarAhmed/001%20of%20108%20-%20Quran%20Tafseer%20in%20Urdu%20-%20-FULL-%20-%20Dr.%20Israr%20Ahmed%20-%20Introduction.mp4"
+            },
+            {
+              "id": "vep_israr_fatiha",
+              "title": { "en": "005 — Surah Al-Fatiha", "ur": "۵ — سورۃ الفاتحہ" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/QuranTafseerInUrduFULLDr.IsrarAhmed/005%20of%20108%20-%20Quran%20Tafseer%20in%20Urdu%20-%20-FULL-%20-%20Dr.%20Israr%20Ahmed%20-%20Surah%20Al-Fatiha.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
