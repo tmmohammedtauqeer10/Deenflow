@@ -1,8 +1,8 @@
 {
   "status": "success",
   "api_version": "2.0",
-  "last_updated": "2026-06-02",
-  "total_categories": 5,
+  "last_updated": "2026-06-17",
+  "total_categories": 12,
   "categories": [
     {
       "category_id": "quiz_seerah_01",
@@ -340,6 +340,482 @@
           "question_id": "q_his_010",
           "text": "Which Caliph established the first formal police force and public treasury (Baitul Mal)?",
           "options": ["Abu Bakr", "Umar ibn al-Khattab", "Uthman", "Ali"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_aqeedah_01",
+      "category_name": "Aqeedah (Beliefs)",
+      "difficulty": "Easy",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_aqd_001",
+          "text": "How many pillars of Iman (faith) are there?",
+          "options": ["4", "5", "6", "7"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_aqd_002",
+          "text": "Belief in which of the following is a pillar of Iman?",
+          "options": ["Wealth", "Angels", "Nationality", "Magic"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_aqd_003",
+          "text": "What is the belief in the absolute Oneness of Allah called?",
+          "options": ["Shirk", "Tawhid", "Kufr", "Nifaq"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_aqd_004",
+          "text": "Associating partners with Allah is the major sin called?",
+          "options": ["Iman", "Taqwa", "Shirk", "Sabr"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_aqd_005",
+          "text": "How many beautiful names of Allah (Asma ul-Husna) are well known?",
+          "options": ["77", "99", "100", "113"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_aqd_006",
+          "text": "Belief in life after death is belief in the?",
+          "options": ["Qadar", "Akhirah", "Risalah", "Dunya"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_aqd_007",
+          "text": "Belief in Allah's divine decree and destiny is called?",
+          "options": ["Qadar (Predestination)", "Qiyamah", "Barzakh", "Mizan"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_aqd_008",
+          "text": "What is the bridge over Hell that everyone must cross on the Day of Judgement?",
+          "options": ["Mizan", "As-Sirat", "Al-Kawthar", "Barzakh"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_aqd_009",
+          "text": "What is the final revealed scripture sent by Allah?",
+          "options": ["Torah", "Injil", "Zabur", "The Quran"],
+          "correct_index": 3
+        },
+        {
+          "question_id": "q_aqd_010",
+          "text": "Who is the final Prophet and Messenger in Islam?",
+          "options": ["Isa (Jesus)", "Musa (Moses)", "Muhammad (PBUH)", "Ibrahim"],
+          "correct_index": 2
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_prophets_01",
+      "category_name": "The Prophets (Anbiya)",
+      "difficulty": "Medium",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_anb_001",
+          "text": "How many prophets are mentioned by name in the Quran?",
+          "options": ["25", "40", "99", "124000"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_anb_002",
+          "text": "Which Prophet built the Ark to survive the great flood?",
+          "options": ["Nuh (Noah)", "Hud", "Salih", "Yunus"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_anb_003",
+          "text": "Which Prophet is known as 'Khalilullah' (the Friend of Allah)?",
+          "options": ["Musa", "Ibrahim", "Isa", "Adam"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_anb_004",
+          "text": "Which Prophet was given a kingdom and could command the wind and jinn?",
+          "options": ["Dawud", "Sulaiman (Solomon)", "Yusuf", "Ayyub"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_anb_005",
+          "text": "Which Prophet was swallowed by a large fish?",
+          "options": ["Yunus (Jonah)", "Yusuf", "Idris", "Lut"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_anb_006",
+          "text": "Which Prophet is renowned for his patience through severe illness and loss?",
+          "options": ["Ayyub (Job)", "Yaqub", "Zakariya", "Yahya"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_anb_007",
+          "text": "Who was the first Prophet and the first human created by Allah?",
+          "options": ["Nuh", "Adam", "Idris", "Shith"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_anb_008",
+          "text": "Which Prophet was given the Injil (Gospel)?",
+          "options": ["Musa", "Dawud", "Isa (Jesus)", "Muhammad"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_anb_009",
+          "text": "Which Prophet was given the Zabur (Psalms)?",
+          "options": ["Dawud (David)", "Sulaiman", "Musa", "Harun"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_anb_010",
+          "text": "Which Prophet confronted Pharaoh, and his staff turned into a serpent?",
+          "options": ["Harun", "Musa (Moses)", "Yusha", "Khidr"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_akhlaq_01",
+      "category_name": "Manners & Character (Akhlaq)",
+      "difficulty": "Easy",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_akh_001",
+          "text": "What should a Muslim say before eating?",
+          "options": ["Alhamdulillah", "Bismillah", "SubhanAllah", "Astaghfirullah"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_002",
+          "text": "What should a Muslim say after sneezing?",
+          "options": ["Bismillah", "Alhamdulillah", "Insha'Allah", "MashaAllah"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_003",
+          "text": "What is the Islamic greeting of peace?",
+          "options": ["Marhaba", "As-salamu alaykum", "Ahlan", "Sabah al-khayr"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_004",
+          "text": "With which hand is it Sunnah to eat and drink?",
+          "options": ["Left", "Right", "Both equally", "Neither"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_005",
+          "text": "What does 'Insha'Allah' mean?",
+          "options": ["Praise be to Allah", "If Allah wills", "Glory to Allah", "Allah is the Greatest"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_006",
+          "text": "How should you reply to 'As-salamu alaykum'?",
+          "options": ["Shukran", "Wa alaykum as-salam", "Marhaba", "Bismillah"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_007",
+          "text": "What does the phrase 'JazakAllahu Khayran' express?",
+          "options": ["May Allah forgive you", "May Allah reward you with good", "Welcome", "Good morning"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_008",
+          "text": "According to a hadith, which are signs of a hypocrite (Munafiq)?",
+          "options": ["Praying and fasting", "Lying, breaking promises, betraying trust", "Giving charity", "Seeking knowledge"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_009",
+          "text": "What does 'MashaAllah' express?",
+          "options": ["An apology", "Appreciation of what Allah has willed", "Anger", "Sadness"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_akh_010",
+          "text": "The Prophet (PBUH) said that even which simple act is a form of charity?",
+          "options": ["A harsh word", "Smiling at your brother", "Ignoring the needy", "Boasting of wealth"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_worship_01",
+      "category_name": "Pillars of Islam & Worship",
+      "difficulty": "Easy",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_wor_001",
+          "text": "What is the testimony of faith (declaration of belief) called?",
+          "options": ["Salah", "Shahada", "Zakat", "Sawm"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_002",
+          "text": "How many obligatory prayers do Muslims perform each day?",
+          "options": ["3", "4", "5", "6"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_wor_003",
+          "text": "Which is the first obligatory prayer of the day?",
+          "options": ["Dhuhr", "Fajr", "Asr", "Isha"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_004",
+          "text": "The pilgrimage to Mecca that is a pillar of Islam is called?",
+          "options": ["Umrah", "Hajj", "Ziyarah", "Tawaf"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_005",
+          "text": "Circling the Kaaba seven times is an act of worship called?",
+          "options": ["Sa'i", "Tawaf", "Wuquf", "Rami"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_006",
+          "text": "The call to prayer is known as?",
+          "options": ["Iqamah", "Adhan", "Takbir", "Tasbih"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_007",
+          "text": "How many prostrations (sujood) are in a single rak'ah of prayer?",
+          "options": ["1", "2", "3", "4"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_008",
+          "text": "Which blessed night is described as better than a thousand months?",
+          "options": ["Laylatul Bara'ah", "Laylatul Qadr", "Laylatul Mi'raj", "Laylatul Eid"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_wor_009",
+          "text": "The obligatory charity given at the end of Ramadan before Eid is called?",
+          "options": ["Zakat al-Mal", "Sadaqah", "Zakat al-Fitr", "Khums"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_wor_010",
+          "text": "Giving a fixed share of one's wealth to the poor annually is which pillar?",
+          "options": ["Sawm (Fasting)", "Zakat (Charity)", "Hajj", "Shahada"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_ramadan_01",
+      "category_name": "Ramadan & Fasting",
+      "difficulty": "Medium",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_ram_001",
+          "text": "What is the pre-dawn meal eaten before fasting called?",
+          "options": ["Iftar", "Suhoor", "Walima", "Fidyah"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_002",
+          "text": "What is the meal that breaks the fast at sunset called?",
+          "options": ["Suhoor", "Iftar", "Aqiqah", "Sahw"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_003",
+          "text": "Ramadan is which month of the Islamic (Hijri) calendar?",
+          "options": ["7th", "9th", "10th", "12th"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_004",
+          "text": "With what is it Sunnah to break the fast?",
+          "options": ["Water only", "Dates", "Bread", "Tea"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_005",
+          "text": "The special voluntary night prayers offered in Ramadan are called?",
+          "options": ["Tahajjud", "Taraweeh", "Ishraq", "Duha"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_006",
+          "text": "Secluding oneself in the mosque for worship in the last days of Ramadan is called?",
+          "options": ["I'tikaf", "Hajj", "Umrah", "Khalwa"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_ram_007",
+          "text": "Laylatul Qadr is most strongly sought in which nights of Ramadan?",
+          "options": ["First ten nights", "Middle ten nights", "Last ten (odd) nights", "Only the 1st night"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_ram_008",
+          "text": "Which of the following does NOT break the fast?",
+          "options": ["Eating intentionally", "Drinking intentionally", "Eating or drinking out of forgetfulness", "Deliberately vomiting"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_ram_009",
+          "text": "Who is permitted to not fast but should make it up or feed the poor?",
+          "options": ["Healthy residents", "The sick and travelers", "Teenagers", "The wealthy"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_ram_010",
+          "text": "Fasting in Ramadan is which pillar of Islam?",
+          "options": ["2nd", "3rd", "4th", "5th"],
+          "correct_index": 2
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_sahabah_01",
+      "category_name": "The Companions (Sahabah)",
+      "difficulty": "Hard",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_sah_001",
+          "text": "Who was the first adult man to accept Islam?",
+          "options": ["Umar", "Abu Bakr as-Siddiq", "Ali", "Uthman"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_002",
+          "text": "Who is considered the first young boy to accept Islam?",
+          "options": ["Ali ibn Abi Talib", "Zaid ibn Harithah", "Usama", "Anas"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_sah_003",
+          "text": "Which Caliph was given the title 'Al-Farooq' (one who distinguishes truth from falsehood)?",
+          "options": ["Abu Bakr", "Umar ibn al-Khattab", "Uthman", "Ali"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_004",
+          "text": "Which companion was titled 'Dhun-Nurayn' (Possessor of Two Lights)?",
+          "options": ["Ali", "Uthman ibn Affan", "Talha", "Zubayr"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_005",
+          "text": "Which companion is the only one mentioned by name in the Quran?",
+          "options": ["Bilal", "Zaid ibn Harithah", "Salman", "Ammar"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_006",
+          "text": "Which wife of the Prophet (PBUH) became a great scholar and narrator of Hadith?",
+          "options": ["Khadijah", "Aisha", "Sawdah", "Maymunah"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_007",
+          "text": "Which uncle of the Prophet, martyred at Uhud, was titled 'Lion of Allah'?",
+          "options": ["Al-Abbas", "Hamza ibn Abdul-Muttalib", "Abu Lahab", "Abu Talib"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_008",
+          "text": "Which wealthy companion generously funded the Muslim army of Tabuk?",
+          "options": ["Abu Hurairah", "Uthman ibn Affan", "Bilal", "Salman"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_sah_009",
+          "text": "Which young companion was appointed an army commander by the Prophet (PBUH)?",
+          "options": ["Usama ibn Zaid", "Anas ibn Malik", "Abdullah ibn Abbas", "Mu'adh ibn Jabal"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_sah_010",
+          "text": "How many companions were given glad tidings of Paradise in one famous narration ('Ashara Mubashshara')?",
+          "options": ["7", "10", "12", "40"],
+          "correct_index": 1
+        }
+      ]
+    },
+    {
+      "category_id": "quiz_general_01",
+      "category_name": "General Islamic Knowledge",
+      "difficulty": "Easy",
+      "points_per_question": 50,
+      "questions": [
+        {
+          "question_id": "q_gen_001",
+          "text": "What is the holy book of Islam?",
+          "options": ["The Bible", "The Torah", "The Quran", "The Vedas"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_gen_002",
+          "text": "What is the name of the cube-shaped house of worship in Mecca?",
+          "options": ["Masjid an-Nabawi", "The Kaaba", "Dome of the Rock", "Masjid al-Aqsa"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_gen_003",
+          "text": "What are the two major Islamic festivals (Eids) called?",
+          "options": ["Eid al-Fitr & Eid al-Adha", "Diwali & Holi", "Christmas & Easter", "Nowruz & Mawlid"],
+          "correct_index": 0
+        },
+        {
+          "question_id": "q_gen_004",
+          "text": "In which country is the city of Mecca located?",
+          "options": ["Egypt", "Iraq", "Saudi Arabia", "Jordan"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_gen_005",
+          "text": "What is the second holiest city in Islam?",
+          "options": ["Jerusalem", "Medina", "Cairo", "Damascus"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_gen_006",
+          "text": "In which language was the Quran revealed?",
+          "options": ["Hebrew", "Persian", "Arabic", "Urdu"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_gen_007",
+          "text": "What is the day of congregational Friday prayer called?",
+          "options": ["Yawm al-Ahad", "Jumu'ah", "As-Sabt", "Eid"],
+          "correct_index": 1
+        },
+        {
+          "question_id": "q_gen_008",
+          "text": "Which of these meats is forbidden (haram) for Muslims to eat?",
+          "options": ["Cow", "Sheep", "Pork", "Goat"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_gen_009",
+          "text": "What is the third holiest site in Islam, located in Jerusalem?",
+          "options": ["The Kaaba", "Masjid an-Nabawi", "Masjid al-Aqsa", "Quba Mosque"],
+          "correct_index": 2
+        },
+        {
+          "question_id": "q_gen_010",
+          "text": "What does the word 'Islam' mean?",
+          "options": ["War", "Submission and peace to Allah", "Wealth", "Travel"],
           "correct_index": 1
         }
       ]
