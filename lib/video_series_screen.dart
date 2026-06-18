@@ -30,7 +30,6 @@ class VideoSeriesScreen extends StatefulWidget {
 
 class _VideoSeriesScreenState extends State<VideoSeriesScreen> {
   bool _isLoading = true;
-  String? _error;
   List<dynamic> _categories = [];
 
   @override
@@ -45,27 +44,23 @@ class _VideoSeriesScreenState extends State<VideoSeriesScreen> {
   }
 
   Future<void> _loadCatalog() async {
-    setState(() {
-      _isLoading = true;
-      _error = null;
-    });
+    setState(() => _isLoading = true);
+    List<dynamic> cats = [];
     try {
       final res = await http.get(Uri.parse(_videoApiUrl));
-      if (res.statusCode != 200) throw Exception('HTTP ${res.statusCode}');
-      final data = json.decode(utf8.decode(res.bodyBytes));
-      if (mounted) {
-        setState(() {
-          _categories = (data['categories'] as List?) ?? [];
-          _isLoading = false;
-        });
+      if (res.statusCode == 200) {
+        final data = json.decode(utf8.decode(res.bodyBytes));
+        cats = (data['categories'] as List?) ?? [];
       }
-    } catch (e) {
-      if (mounted) {
-        setState(() {
-          _error = e.toString();
-          _isLoading = false;
-        });
-      }
+      // Non-200 (e.g. catalog not published yet -> 404) -> "coming soon".
+    } catch (_) {
+      cats = [];
+    }
+    if (mounted) {
+      setState(() {
+        _categories = cats;
+        _isLoading = false;
+      });
     }
   }
 
@@ -105,47 +100,115 @@ class _VideoSeriesScreenState extends State<VideoSeriesScreen> {
   }
 
   Widget _buildBody() {
-    if (_error != null) {
-      return Center(
-        child: Padding(
-          padding: const EdgeInsets.all(24),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(Icons.cloud_off, color: Colors.redAccent, size: 48),
-              const SizedBox(height: 16),
-              Text(
-                AudioLang.isUrdu
-                    ? 'ویڈیوز لوڈ نہیں ہو سکیں'
-                    : 'Could not load video series',
-                style: const TextStyle(
-                    color: _gold, fontSize: 18, fontWeight: FontWeight.bold),
-              ),
-              const SizedBox(height: 8),
-              Text(_error!,
-                  style: const TextStyle(color: Colors.white54, fontSize: 13),
-                  textAlign: TextAlign.center),
-              const SizedBox(height: 24),
-              ElevatedButton(
-                style: ElevatedButton.styleFrom(backgroundColor: _gold),
-                onPressed: _loadCatalog,
-                child: Text(AudioLang.isUrdu ? 'دوبارہ کوشش' : 'Retry',
-                    style: const TextStyle(color: _bg)),
-              ),
-            ],
-          ),
-        ),
-      );
-    }
-
     if (_isLoading) {
       return const Center(child: CircularProgressIndicator(color: _gold));
+    }
+
+    // Catalog not published yet (or unreachable) -> clean "coming soon".
+    if (_categories.isEmpty) {
+      return _buildComingSoon();
     }
 
     return ListView.builder(
       padding: const EdgeInsets.symmetric(vertical: 8),
       itemCount: _categories.length,
       itemBuilder: (context, i) => _buildCategory(_categories[i]),
+    );
+  }
+
+  /// Friendly placeholder shown when the GitHub video catalog has no
+  /// content yet. Pull-to-refresh re-checks once it is published.
+  Widget _buildComingSoon() {
+    final placeholders = AudioLang.isUrdu
+        ? const ['اسلامی تقاریر (انگریزی)', 'اسلامی تقاریر (اردو)', 'تفسیر ویڈیو']
+        : const [
+            'Islamic Speeches (English)',
+            'Islamic Speeches (Urdu)',
+            'Tafsir Videos',
+          ];
+    return RefreshIndicator(
+      color: _gold,
+      backgroundColor: _surface,
+      onRefresh: _loadCatalog,
+      child: ListView(
+        padding: const EdgeInsets.all(16),
+        children: [
+          const SizedBox(height: 8),
+          const Icon(Icons.smart_display_outlined, color: _gold, size: 48),
+          const SizedBox(height: 12),
+          Text(
+            AudioLang.isUrdu ? 'جلد آرہا ہے' : 'Coming soon',
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+                color: _gold, fontSize: 20, fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 6),
+          Text(
+            AudioLang.isUrdu
+                ? 'نئی اسلامی ویڈیوز تیار کی جا رہی ہیں۔'
+                : 'New Islamic videos are on the way.',
+            textAlign: TextAlign.center,
+            style: const TextStyle(color: Colors.white54, fontSize: 13),
+          ),
+          const SizedBox(height: 20),
+          ...placeholders.map(_buildSoonCard),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSoonCard(String title) {
+    return Card(
+      margin: const EdgeInsets.symmetric(vertical: 6),
+      color: _surface,
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      clipBehavior: Clip.antiAlias,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          AspectRatio(
+            aspectRatio: 16 / 9,
+            child: Container(
+              color: Colors.white10,
+              child: const Center(
+                child: Icon(Icons.videocam_outlined,
+                    color: Colors.white30, size: 40),
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(12),
+            child: Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    title,
+                    style: const TextStyle(
+                        color: Colors.white70,
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: _gold.withOpacity(0.18),
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Text(
+                    AudioLang.isUrdu ? 'جلد' : 'Soon',
+                    style: const TextStyle(
+                        color: _gold,
+                        fontSize: 11,
+                        fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 
