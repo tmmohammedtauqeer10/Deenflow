@@ -59,6 +59,24 @@
               "title": { "en": "Fiqh of Love", "ur": "محبت کا فقہ" },
               "duration_seconds": 0,
               "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/FiqhOfLove-New2015LectureFromMuftiMenk2015.mp4"
+            },
+            {
+              "id": "vep_menk_farewell_hajj",
+              "title": { "en": "Farewell to the Hajj", "ur": "حج کو الوداع" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/FarewellToTheHajj-MuftiIsmailMenk.mp4"
+            },
+            {
+              "id": "vep_menk_advice_children",
+              "title": { "en": "Beneficial Advice to Muslim Children", "ur": "مسلمان بچوں کے لیے مفید نصیحت" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/BeneficialAdviseToMuslimChildren-New2015Lecture-MuftiMenkHd.mp4"
+            },
+            {
+              "id": "vep_menk_breast_cancer",
+              "title": { "en": "Breast Cancer Awareness Program", "ur": "بریسٹ کینسر آگاہی پروگرام" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/CollectionOfMuftiMenkIslamicLectures/BreastCancerProgram-MuftiMenk.mp4"
             }
           ]
         },
@@ -261,6 +279,49 @@
               "title": { "en": "Ansoo (Tears)", "ur": "آنسو" },
               "duration_seconds": 0,
               "video_url": "https://archive.org/download/aqeeda-by-peer-ajmal-raza-qadri-short-ytshorts-by.-moji-tube-ripper.com.-3gp/Ansoo%20By%20Ajmal%20Raza%20Qadri%20%23shorts%20%23ytshorts%20%23islam%20By.Moji%20%5BTubeRipper.com%5D.mp4"
+            }
+          ]
+        },
+        {
+          "id": "vser_tariq_jameel_2017",
+          "title": {
+            "en": "Maulana Tariq Jameel — 2017 Bayan",
+            "ur": "مولانا طارق جمیل — ۲۰۱۷ بیان"
+          },
+          "speaker": {
+            "en": "Maulana Tariq Jameel",
+            "ur": "مولانا طارق جمیل"
+          },
+          "language": "ur",
+          "tradition": "Sunni",
+          "description": {
+            "en": "A series of Urdu bayans by Maulana Tariq Jameel on the nafs, certainty (yaqeen) in Allah, and the companions.",
+            "ur": "مولانا طارق جمیل کے نفس، اللہ پر یقین اور صحابہ کرام پر اردو بیانات کا سلسلہ۔"
+          },
+          "badge": {
+            "en": "Urdu • Sunni",
+            "ur": "اردو • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/BestMaulanaTariqJameelLatestBayanAboutDiffrenceBetweenHoneyBeenFly",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_tj2017_nafs",
+              "title": { "en": "The Nafs & 11 Types of Oaths", "ur": "نفس اور قسموں کی ۱۱ اقسام" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/BestMaulanaTariqJameelLatestBayanAboutDiffrenceBetweenHoneyBeenFly/01.NafsAnd11TypesOfSwearsByMaulanaTariqJameel.mp4"
+            },
+            {
+              "id": "vep_tj2017_yaqeen",
+              "title": { "en": "Yaqeen on Allah & Its Levels", "ur": "اللہ پر یقین اور اس کے درجات" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/BestMaulanaTariqJameelLatestBayanAboutDiffrenceBetweenHoneyBeenFly/02.YaqeenOnAllahAndItsLevels__MaulanaTariqJameel2017.mp4"
+            },
+            {
+              "id": "vep_tj2017_companions",
+              "title": { "en": "The Companions Are the True Standard", "ur": "صحابہ کرام ہی اصل معیار ہیں" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/BestMaulanaTariqJameelLatestBayanAboutDiffrenceBetweenHoneyBeenFly/03.CompanionsOfTheProphetAreTrueStandardByMaulanaTariqJameel2017.mp4"
             }
           ]
         }
