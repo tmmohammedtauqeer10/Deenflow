@@ -983,6 +983,153 @@
               "audio_url": "https://archive.org/download/Lam_Yati_Nazeero_Kafi_Nazarin/Jise%20Chaha%20Dar%20Pe%20Bula%20Liya.mp3"
             }
           ]
+        },
+        {
+          "id": "ser_nasheed_tr",
+          "title": {
+            "en": "Turkish Ilahis (Vocals Only)",
+            "ur": "ترکی الٰہی (صرف آواز)"
+          },
+          "narrator": {
+            "en": "Various Artists",
+            "ur": "مختلف فنکار"
+          },
+          "language": "tr",
+          "description": {
+            "en": "Music-free Turkish ilahis — devotional songs glorifying Allah, vocals only.",
+            "ur": "بغیر موسیقی کے ترکی الٰہی — اللہ کی تمجید پر مشتمل عقیدت بھرے نغمے، صرف آواز۔"
+          },
+          "badge": {
+            "en": "Turkish • No Music",
+            "ur": "ترکی • بغیر موسیقی"
+          },
+          "cover_color": "#1c4532",
+          "cover_url": "https://archive.org/services/img/muziksizilahiler",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_tr_yarab_haberin",
+              "title": { "en": "Yarab Haberin Nereden Alayim", "ur": "یا رب خبرین نیریدن آلایم" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muziksizilahiler/adem_kucuk_yarab_haberin_nereden_alayim.mp3"
+            },
+            {
+              "id": "ep_tr_allah_emrin",
+              "title": { "en": "Allah Emrin Tutalim", "ur": "اللہ امرین توتالیم" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muziksizilahiler/ahmet_derin_allah_emrin_tutalim.mp3"
+            },
+            {
+              "id": "ep_tr_bu_dunya_fani",
+              "title": { "en": "Bu Dunya Fani", "ur": "بو دنیا فانی" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muziksizilahiler/ahmet_derin_bu_dunya_fani.mp3"
+            },
+            {
+              "id": "ep_tr_ey_yolcular",
+              "title": { "en": "Ey Yolcular", "ur": "اے یولجولار" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/muziksizilahiler/ahmet_derin_ey_yolcular.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_nasheed_ta",
+          "title": {
+            "en": "Tamil Islamic Songs — Nagore Haniffa",
+            "ur": "تامل اسلامی نغمے — ناگور حنیفہ"
+          },
+          "narrator": {
+            "en": "Nagore E. M. Haniffa",
+            "ur": "ناگور ای ایم حنیفہ"
+          },
+          "language": "ta",
+          "description": {
+            "en": "Classic Tamil Islamic songs by the legendary Nagore E. M. Haniffa.",
+            "ur": "عظیم گلوکار ناگور ای ایم حنیفہ کے کلاسیکی تامل اسلامی نغمے۔"
+          },
+          "badge": {
+            "en": "Tamil",
+            "ur": "تامل"
+          },
+          "cover_color": "#702459",
+          "cover_url": "https://archive.org/services/img/tamilislamicsongs",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_ta_ella_pugazhum",
+              "title": { "en": "Ella Pugazhum (All Praise)", "ur": "ایلا پُگاژُم (تمام تعریف)" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/tamilislamicsongs/Iraivanidam_Kaiyendungal/Ella_Pugazhum-VmusiQ.Com.mp3"
+            },
+            {
+              "id": "ep_ta_adhi_arul",
+              "title": { "en": "Adhi Arul", "ur": "آدھی اَرُل" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/tamilislamicsongs/Iraivanidam_Kaiyendungal/Adhi_Arul-VmusiQ.Com.mp3"
+            },
+            {
+              "id": "ep_ta_engum_niraitha",
+              "title": { "en": "Engum Niraitha", "ur": "اینگُم نِرَیتھا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/tamilislamicsongs/Iraivanidam_Kaiyendungal/Engum_Niraitha-VmusiQ.Com.mp3"
+            },
+            {
+              "id": "ep_ta_allavai_naam",
+              "title": { "en": "Allavai Naam", "ur": "اللهوَی نام" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/tamilislamicsongs/Iraivanidam_Kaiyendungal/Allavai_Naam-VmusiQ.Com.mp3"
+            }
+          ]
+        },
+        {
+          "id": "ser_naat_hindi",
+          "title": {
+            "en": "Hindi / Urdu Naat — Hafiz Abu Bakr",
+            "ur": "ہندی / اردو نعت — حافظ ابوبکر"
+          },
+          "narrator": {
+            "en": "Hafiz Abu Bakr",
+            "ur": "حافظ ابوبکر"
+          },
+          "language": "hi",
+          "description": {
+            "en": "Naats in Hindustani (Hindi/Urdu) by Hafiz Abu Bakr — easy to follow for Hindi and Urdu speakers alike.",
+            "ur": "حافظ ابوبکر کی ہندوستانی (ہندی/اردو) نعتیں — ہندی اور اردو بولنے والوں کے لیے یکساں آسان۔"
+          },
+          "badge": {
+            "en": "Hindi / Urdu",
+            "ur": "ہندی / اردو"
+          },
+          "cover_color": "#2c5282",
+          "cover_url": "https://archive.org/services/img/YaRabbana",
+          "cover_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "ep_hi_al_nabi_salu",
+              "title": { "en": "Al Nabi Salu Alaih", "ur": "النبی صلوا علیہ" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/YaRabbana/Al%20Nabi%20Salu%20Alaih.mp3"
+            },
+            {
+              "id": "ep_hi_noor_e_sunnat",
+              "title": { "en": "Noor-e-Sunnat", "ur": "نورِ سنت" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/YaRabbana/Noor%20e%20Sunnat.mp3"
+            },
+            {
+              "id": "ep_hi_mohammad_ka_gham",
+              "title": { "en": "Mohammad Ka Gham", "ur": "محمد کا غم" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/YaRabbana/Mohammad%20ka%20Gham.mp3"
+            },
+            {
+              "id": "ep_hi_jab_husan_tha",
+              "title": { "en": "Jab Husan Tha Un Ka", "ur": "جب حُسن تھا اُن کا" },
+              "duration_seconds": 0,
+              "audio_url": "https://archive.org/download/YaRabbana/Jab%20Husan%20tha%20Un%20ka.mp3"
+            }
+          ]
         }
       ]
     }
