@@ -112,45 +112,94 @@
           ]
         },
         {
-          "id": "vser_yasir_tajweed",
+          "id": "vser_hamza_yusuf",
           "title": {
-            "en": "Learn Tajweed — Yasir Qadhi",
-            "ur": "تجوید سیکھیں — یاسر قاضی"
+            "en": "Shaykh Hamza Yusuf — Lectures",
+            "ur": "شیخ حمزہ یوسف — لیکچرز"
           },
           "speaker": {
-            "en": "Shaykh Yasir Qadhi",
-            "ur": "شیخ یاسر قاضی"
+            "en": "Shaykh Hamza Yusuf",
+            "ur": "شیخ حمزہ یوسف"
           },
           "language": "en",
           "tradition": "Sunni",
           "description": {
-            "en": "A step-by-step English video course teaching the rules of Quranic recitation (tajweed).",
-            "ur": "قرآنی تلاوت کے قواعد (تجوید) سکھانے والا انگریزی ویڈیو کورس، قدم بہ قدم۔"
+            "en": "Profound English talks by the traditional Sunni scholar Shaykh Hamza Yusuf.",
+            "ur": "روایتی سنی عالم شیخ حمزہ یوسف کے گہرے انگریزی بیانات۔"
           },
           "badge": {
-            "en": "English • Course",
-            "ur": "انگریزی • کورس"
+            "en": "English • Sunni",
+            "ur": "انگریزی • سنی"
           },
-          "thumbnail": "https://archive.org/services/img/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4",
+          "thumbnail": "https://archive.org/services/img/hamzayusuf-lectures-collection",
           "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
           "episodes": [
             {
-              "id": "vep_yasir_l01",
-              "title": { "en": "Lesson 01", "ur": "سبق ۱" },
+              "id": "vep_hy_mercy_to_mankind",
+              "title": { "en": "A Mercy to Mankind", "ur": "رحمۃ للعالمین" },
               "duration_seconds": 0,
-              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2001of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+              "video_url": "https://archive.org/download/hamzayusuf-lectures-collection/Hamza%20Yusuf%20-%20A%20Mercy%20to%20Mankind.mp4"
             },
             {
-              "id": "vep_yasir_l02",
-              "title": { "en": "Lesson 02", "ur": "سبق ۲" },
+              "id": "vep_hy_quranic_worldview",
+              "title": { "en": "A Quranic World View", "ur": "قرآنی نقطۂ نظر" },
               "duration_seconds": 0,
-              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2002of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+              "video_url": "https://archive.org/download/hamzayusuf-lectures-collection/Hamza%20Yusuf%20-%20A%20Quranic%20World%20View.mp4"
             },
             {
-              "id": "vep_yasir_l03",
-              "title": { "en": "Lesson 03", "ur": "سبق ۳" },
+              "id": "vep_hy_30_years_taqwa",
+              "title": { "en": "30 Years of Taqwa", "ur": "تقویٰ کے ۳۰ سال" },
               "duration_seconds": 0,
-              "video_url": "https://archive.org/download/LearnTajweedWithYasirQadhiLesson01of30www.aswatalislam.netMpeg4/Learn%20Tajweed%20with%20Yasir%20Qadhi%20-%20Lesson%2003of30%20%28www.aswatalislam.net%29_mpeg4.mp4"
+              "video_url": "https://archive.org/download/hamzayusuf-lectures-collection/Hamza%20Yusuf%20-%2030%20Years%20Of%20Taqwa.mp4"
+            },
+            {
+              "id": "vep_hy_10_reasons_prayers",
+              "title": { "en": "10 Reasons Why Our Prayers Are Not Accepted", "ur": "ہماری دعائیں قبول نہ ہونے کی ۱۰ وجوہات" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/hamzayusuf-lectures-collection/Hamza%20Yusuf%20-%2010%20Reasons%20Why%20Our%20Prayers%20Are%20Not%20Accepted.mp4"
+            }
+          ]
+        },
+        {
+          "id": "vser_ahm_murad",
+          "title": {
+            "en": "Abdal Hakim Murad — Essence of Islamic Education",
+            "ur": "عبدالحکیم مراد — اسلامی تعلیم کا جوہر"
+          },
+          "speaker": {
+            "en": "Shaykh Abdal Hakim Murad",
+            "ur": "شیخ عبدالحکیم مراد"
+          },
+          "language": "en",
+          "tradition": "Sunni",
+          "description": {
+            "en": "A three-part series on the heart of Islamic education by the Cambridge scholar Abdal Hakim Murad (Tim Winter).",
+            "ur": "کیمبرج کے عالم عبدالحکیم مراد (ٹم ونٹر) کی اسلامی تعلیم کے جوہر پر تین حصوں کی سیریز۔"
+          },
+          "badge": {
+            "en": "English • Sunni",
+            "ur": "انگریزی • سنی"
+          },
+          "thumbnail": "https://archive.org/services/img/TheEssenceOfIslamicEducationPart1Of3ByAbdalHakimMurad",
+          "thumbnail_fallback": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Islamic_geometric_pattern.svg/400px-Islamic_geometric_pattern.svg.png",
+          "episodes": [
+            {
+              "id": "vep_ahm_part1",
+              "title": { "en": "Part 1 of 3", "ur": "حصہ ۱ از ۳" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/TheEssenceOfIslamicEducationPart1Of3ByAbdalHakimMurad/The%20Essence%20of%20Islamic%20Education%20-%20Part%201%20of%203%20-%20By%20Abdal%20Hakim%20Murad.mp4"
+            },
+            {
+              "id": "vep_ahm_part2",
+              "title": { "en": "Part 2 of 3", "ur": "حصہ ۲ از ۳" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/TheEssenceOfIslamicEducationPart1Of3ByAbdalHakimMurad/The%20Essence%20of%20Islamic%20Education%20-%20Part%202%20of%203%20-%20By%20Abdal%20Hakim%20Murad.mp4"
+            },
+            {
+              "id": "vep_ahm_part3",
+              "title": { "en": "Part 3 of 3", "ur": "حصہ ۳ از ۳" },
+              "duration_seconds": 0,
+              "video_url": "https://archive.org/download/TheEssenceOfIslamicEducationPart1Of3ByAbdalHakimMurad/The%20Essence%20of%20Islamic%20Education%20-%20Part%203%20of%203%20-%20By%20Abdal%20Hakim%20Murad.mp4"
             }
           ]
         }
