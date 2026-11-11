@@ -227,6 +227,12 @@
     },
     {
       "category_id": "cat_tazkiyah",
+      "learning_path": {
+        "section_id": "tasawwuf",
+        "title": "Tasawwuf, Tazkiyah & Ihsan",
+        "api_url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/tasawwuf_api.json",
+        "screen": "TasawwufScreen"
+      },
       "category_name": "Tazkiyah & Akhlaq (Soul Purification)",
       "icon": "heart",
       "color": "#702459",
