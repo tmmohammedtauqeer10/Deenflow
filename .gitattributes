@@ -1,0 +1,4 @@
+# Preserve exact third-party edition bytes and their manifest checksums.
+books/tasawwuf/*.txt -text
+books/tasawwuf/*.html -text
+books/tasawwuf/*.pdf -text
