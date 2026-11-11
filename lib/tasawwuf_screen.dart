@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'tasawwuf_book_reader.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
@@ -202,13 +203,31 @@ class _TasawwufScreenState extends State<TasawwufScreen> {
 
   Widget _books() => ListView(padding: const EdgeInsets.all(16), children: [
     _heading('Reading companions'),
-    const Text('External text and publisher links. Books are not bundled or automatically downloaded. Advanced texts are for guided study.'), const SizedBox(height: 16),
+    const Text('Read available complete editions below. Language, format and edition scope are shown for every file. Other translations remain external references. Advanced texts are for guided study.'), const SizedBox(height: 16),
     for (final book in _records(_data!['books'])) _card(Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Row(children: [Expanded(child: Text(book['title'] as String, style: const TextStyle(fontWeight: FontWeight.bold, color: _gold))),
         IconButton(tooltip: _saved.contains(book['id']) ? 'Remove saved book' : 'Save book', icon: Icon(_saved.contains(book['id']) ? Icons.bookmark : Icons.bookmark_border), onPressed: () => _persist(_savedKey, _saved.contains(book['id']) ? (_saved.toSet()..remove(book['id'])) : (_saved.toSet()..add(book['id'] as String))))]),
       Text('${book['author']} · ${book['level']}'), const SizedBox(height: 8),
       Text(book['description'] as String), const SizedBox(height: 8), Text(book['reading_guidance'] as String, style: const TextStyle(color: Colors.white60)),
       TextButton.icon(onPressed: () => _openLink(context, book['url'] as String), icon: const Icon(Icons.open_in_new), label: Text(book['access_type'] == 'publisher' ? 'View publisher' : 'Open reference')),
+      for (final edition in _records(book['editions'] ?? [])) Padding(
+        padding: const EdgeInsets.only(top: 8),
+        child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+          Text('${edition['language']} · ${edition['format']}', style: const TextStyle(color: _gold, fontSize: 12)),
+          Text(edition['edition_note'] as String, style: const TextStyle(fontSize: 12, color: Colors.white60)),
+          TextButton.icon(
+            icon: Icon(edition['format'] == 'txt' ? Icons.menu_book : Icons.open_in_new),
+            label: Text(edition['format'] == 'txt' ? 'Read complete edition' : edition['format'] == 'pdf' ? 'Open complete scan (PDF)' : edition['format'] == 'hosted_reader' ? 'Open hosted edition' : 'Open full HTML text'),
+            onPressed: () {
+              if (edition['format'] == 'txt') {
+                Navigator.of(context).push(MaterialPageRoute(builder: (_) => TasawwufBookReader(title: book['title'] as String, edition: edition)));
+              } else {
+                _openLink(context, edition['url'] as String);
+              }
+            },
+          ),
+        ]),
+      ),
     ])),
   ]);
 
@@ -230,7 +249,7 @@ class _TasawwufScreenState extends State<TasawwufScreen> {
     _heading('Primary references'),
     for (final source in _records(_data!['sources'])) ListTile(title: Text(source['label'] as String), trailing: const Icon(Icons.open_in_new), onTap: () => _openLink(context, source['url'] as String)),
     _heading('Your data'), Text((_data!['privacy'] as Map)['storage'] as String),
-    const SizedBox(height: 8), const Text('No journal text is collected. Local preferences are not encrypted and are not a backup.'),
+    const SizedBox(height: 8), const Text('No journal text is collected. Local preferences are not encrypted and are not a backup. The book reader also caches downloaded text and saves approximate reading position and text size.'),
   ]);
 }
 

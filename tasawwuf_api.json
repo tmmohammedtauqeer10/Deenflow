@@ -832,8 +832,30 @@
       "url": "https://www.whitethreadpress.com/products/ghazalis-the-beginning-of-guidance-bidayat-al-hidaya",
       "description": "Daily conduct, avoiding wrongdoing, and companionship. Read a short passage with the corresponding lesson.",
       "reading_guidance": "Opening discussion; obedience; avoiding sins; companionship.",
-      "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "download_url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/beginning-ar.txt",
+      "rights_note": "Available files have edition-specific attribution and rights in books/tasawwuf/manifest.json. Existing publisher links refer to separate editions.",
+      "editions": [
+        {
+          "id": "beginning_ar_txt",
+          "language": "Arabic",
+          "language_code": "ar",
+          "format": "txt",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/beginning-ar.txt",
+          "sha256": "f69cba5aeea6c479f0effcaf641157698ecadc19d6015590856d2aad5b371341",
+          "bytes": 142202,
+          "edition_note": "Complete source-page transcription; scholarly completeness and textual accuracy are not newly certified."
+        },
+        {
+          "id": "beginning_ar_html",
+          "language": "Arabic",
+          "language_code": "ar",
+          "format": "html",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/beginning-ar.html",
+          "sha256": "ba1e272e184f005cfa22e3493d5a84249748b257d6d8de46aa133f5cad09f92a",
+          "bytes": 144564,
+          "edition_note": "Complete source-page transcription; scholarly completeness and textual accuracy are not newly certified."
+        }
+      ]
     },
     {
       "id": "tas_book_nawawi",
@@ -845,8 +867,30 @@
       "url": "https://sunnah.com/nawawi40",
       "description": "Foundational hadith for intentions, Ihsan, lawful living, and good conduct.",
       "reading_guidance": "Hadith 1, 2, 6, 13, 15, 16, 18, 24 and 35.",
-      "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "download_url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/nawawi-ar.txt",
+      "rights_note": "Available files have edition-specific attribution and rights in books/tasawwuf/manifest.json. Existing publisher links refer to separate editions.",
+      "editions": [
+        {
+          "id": "nawawi_ar_txt",
+          "language": "Arabic",
+          "language_code": "ar",
+          "format": "txt",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/nawawi-ar.txt",
+          "sha256": "355bacbd4b425af7f0f650420b6c67e5fb9d7333907632086a43dfa997e7d7e8",
+          "bytes": 163370,
+          "edition_note": "Complete source-page transcription; scholarly completeness and textual accuracy are not newly certified."
+        },
+        {
+          "id": "nawawi_ar_html",
+          "language": "Arabic",
+          "language_code": "ar",
+          "format": "html",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/nawawi-ar.html",
+          "sha256": "0726d019d311dd013e91335e9236c0a2f41f7952ec16facb4963d435fac9f848",
+          "bytes": 207235,
+          "edition_note": "Complete source-page transcription; scholarly completeness and textual accuracy are not newly certified."
+        }
+      ]
     },
     {
       "id": "tas_book_riyad",
@@ -859,7 +903,8 @@
       "description": "A broad collection for sincerity, repentance, patience, gratitude, and everyday manners.",
       "reading_guidance": "Use named chapters on sincerity, repentance, patience and good manners; numbering varies by edition.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
     },
     {
       "id": "tas_book_assistance",
@@ -872,7 +917,8 @@
       "description": "A practical manual of devotion and ethics. Read gradually after establishing the foundations.",
       "reading_guidance": "Select sections on certainty, intention, vigilance, remembrance and social duties.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
     },
     {
       "id": "tas_book_ihya",
@@ -885,7 +931,8 @@
       "description": "A classical reference for worship, character and purification. Use a teacher and check hadith sourcing.",
       "reading_guidance": "Books 24, 25, 31, 32, 35, 37 and 38, selected by topic; use a reliable edition.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
     },
     {
       "id": "tas_book_heart",
@@ -898,7 +945,8 @@
       "description": "A deeper study of the heart and the inner life; best read with explanation.",
       "reading_guidance": "Begin with the introduction and terminology; discuss difficult passages with a qualified teacher.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
     },
     {
       "id": "tas_book_qushayri",
@@ -911,7 +959,8 @@
       "description": "Historical accounts and technical vocabulary of classical Tasawwuf; a guided reference rather than a beginner practice manual.",
       "reading_guidance": "Selected definitions of repentance, sincerity, patience and companionship; distinguish reports from binding rulings.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
     },
     {
       "id": "tas_book_hikam",
@@ -924,7 +973,51 @@
       "description": "Short spiritual aphorisms requiring context and commentary.",
       "reading_guidance": "Read only a few aphorisms at a time with a qualified teacher after the introductory path.",
       "download_url": null,
-      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights."
+      "rights_note": "External reference only. No book files are redistributed; translations and editions have separate rights.",
+      "editions": []
+    },
+    {
+      "id": "tas_book_alchemy",
+      "title": "The Alchemy of Happiness — historical editions",
+      "author": "Abu Hamid al-Ghazali; English translation by Claud Field",
+      "level": "Intermediate",
+      "language": "English and Urdu editions",
+      "access_type": "online_text",
+      "url": "https://archive.org/details/alchemyofhappine00algh",
+      "description": "Complete files of the 1910 English edition, plus an Urdu hosted-reader listing. The English edition is abridged relative to the Persian original.",
+      "reading_guidance": "Read the edition note first. Compare OCR with the scan where needed; use guided explanation for difficult passages.",
+      "download_url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/alchemy-field-1910-en.txt",
+      "rights_note": "Available files have edition-specific attribution and rights in books/tasawwuf/manifest.json. Existing publisher links refer to separate editions.",
+      "editions": [
+        {
+          "id": "alchemy_en_pdf",
+          "language": "English",
+          "language_code": "en",
+          "format": "pdf",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/alchemy-field-1910-en.pdf",
+          "sha256": "432eba976f2b1c8387d8541f292ffe8667fe0613f848ef1653995f17684eaf99",
+          "bytes": 6403259,
+          "edition_note": "Complete 1910 Field edition (an abridged rendering of the Persian work), not the complete Persian Kimiya-yi Saadat."
+        },
+        {
+          "id": "alchemy_en_txt",
+          "language": "English",
+          "language_code": "en",
+          "format": "txt",
+          "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/books/tasawwuf/alchemy-field-1910-en.txt",
+          "sha256": "8cba6531a3b208e94ea3044b84754431c40ac8ff92c33c47d123780e768cdfd0",
+          "bytes": 172287,
+          "edition_note": "Complete 1910 Field edition (an abridged rendering of the Persian work), not the complete Persian Kimiya-yi Saadat."
+        },
+        {
+          "id": "alchemy_ur_rekhta",
+          "language": "Urdu",
+          "language_code": "ur",
+          "format": "hosted_reader",
+          "url": "https://www.rekhta.org/ebooks/detail/keemiaye-sa-adat-ebooks?lang=ur",
+          "edition_note": "Host lists a 574-page edition; this repository has not independently verified every scanned leaf."
+        }
+      ]
     }
   ],
   "glossary": [
@@ -1032,7 +1125,7 @@
     },
     {
       "question": "Are my reflections uploaded?",
-      "answer": "The supplied screen does not collect or store journal text. Completion and saved-book IDs are stored locally using shared preferences; they are not encrypted or synced by this feature."
+      "answer": "The supplied screens do not collect or store journal text. Completion, saved-book IDs, downloaded book text, approximate reading position and text-size settings are stored locally using shared preferences; they are not encrypted or synced by this feature."
     },
     {
       "question": "Does completion certify spiritual attainment?",
@@ -1152,6 +1245,7 @@
   "privacy": {
     "storage": "Device-local completion and saved-book IDs only in the supplied screen.",
     "journal": "No journal text is collected or stored.",
-    "reset": "Use Clear local progress to remove this feature’s completion and saved-book records."
+    "reset": "Use Clear local progress to remove this feature’s completion and saved-book records.",
+    "book_reader": "Downloaded text, approximate reading position and text size are also stored locally; no account sync or analytics is added."
   }
 }

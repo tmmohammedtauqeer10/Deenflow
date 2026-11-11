@@ -6,7 +6,7 @@ DeenFlow now includes a dedicated, source-linked introductory section for sincer
 
 - Four stages, twelve suggested weeks, twelve modules and twenty-four lessons.
 - A practical exercise, private reflection prompt, source references and a multiple-choice knowledge check for every lesson.
-- Eight book entries, with levels, reading guidance and external publisher/text links.
+- Nine book entries, with levels, reading guidance and external publisher/text links.
 - Twenty glossary terms, seven FAQs, teacher-selection guidance and learning outcomes.
 - A Flutter screen with Path, Books, Glossary and Guide tabs; local completion and saved-book selections; network timeout/retry; cached and optional bundled offline content; and clear-local-progress controls.
 - A standard-library Python validator for catalog structure and cross-references.
@@ -33,13 +33,17 @@ The twelve-week schedule and fifteen-minute lessons are suggestions. Learners ma
 7. **Al-Qushayri’s Epistle on Sufism** — al-Qushayri; advanced, guided reading; [publisher](https://www.garnetpublishing.co.uk/product/al-qushayris-epistle-on-sufism-al-risala-al-qushayriyya-fi-ilm-al-tasawwuf/).
 8. **The Book of Wisdoms**, with commentary — Ibn Ata Allah; advanced, guided reading; [publisher](https://www.whitethreadpress.com/products/the-book-of-wisdoms-kitab-al-hikam-with-ikmal-al-shiyam).
 
-These are catalog entries, not bundled book files. Each has `download_url: null`; the screen opens its `url` externally. Publisher links may require purchase. Do not pass HTML pages into `SmartReaderScreen`, which expects an actual PDF. Verify the rights of a specific edition before adding a downloadable file. This feature does not modify existing library books or their download links.
+The shelf now includes complete-edition files for three works in `books/tasawwuf/`: Arabic transcriptions of **The Beginning of Guidance** and **Forty Hadith** (the source includes commentary), and the full **1910 Claud Field English edition of The Alchemy of Happiness**, supplied as an unchanged scan and OCR. The English edition is abridged relative to the Persian original; it must not be described as the complete Persian work. The Arabic files reproduce the complete selected source pages, not a newly certified critical edition.
+
+An Urdu **Kimiya-e Saadat** listing opens Rekhta’s hosted reader. Rekhta lists 574 pages; all scanned leaves and translation authorship have not been independently verified. No Urdu scan is copied into this repository because redistribution permission has not been established. Other modern translations retain publisher links. The manifest records source revisions, attribution, formats, file sizes, SHA-256 checksums and edition limitations.
+
+The screen opens `.txt` editions in `TasawwufBookReader`, with right-to-left Arabic support, text-size controls, approximate reading-position persistence and local text caching. HTML, PDF and hosted-reader links open externally. Never pass a hosted HTML page to `SmartReaderScreen`, which expects PDF bytes. Third-party files have their own rights and are not covered by the repository’s MIT license; see `books/tasawwuf/README.md`.
 
 ## Connect to the Flutter app
 
 This repository currently contains reusable screens and JSON feeds, but no `main.dart`, `pubspec.yaml`, app router, Android/iOS projects or widget-test harness. The new screen is supplied for integration into the host app; it cannot automatically add a home-screen tile that is absent from this repository.
 
-1. Include `lib/tasawwuf_screen.dart` in your host app.
+1. Include `lib/tasawwuf_screen.dart` and `lib/tasawwuf_book_reader.dart` in your host app.
 2. In the host project run `flutter pub add http shared_preferences url_launcher`. Resolve versions compatible with that app’s Flutter SDK. The screen uses the existing repository’s legacy SharedPreferences API for consistency; it does not require changes to the audio feature.
 3. Ensure Android has the `android.permission.INTERNET` permission. Follow the [HTTP package](https://pub.dev/packages/http) and [URL launcher](https://pub.dev/packages/url_launcher) platform setup instructions for your target platforms.
 4. Import the screen and add a navigation entry:
@@ -57,17 +61,20 @@ ListTile(
 )
 ```
 
-5. For offline access before the first successful download, copy `tasawwuf_api.json` into the host project root and add this to its existing asset list:
+5. For offline access before the first successful download, copy `tasawwuf_api.json` and the three text files (preserving their `books/tasawwuf/` paths) into the host project and add this to its existing asset list:
 
 ```yaml
 flutter:
   assets:
     - tasawwuf_api.json
+    - books/tasawwuf/beginning-ar.txt
+    - books/tasawwuf/nawawi-ar.txt
+    - books/tasawwuf/alchemy-field-1910-en.txt
 ```
 
 6. Run `flutter analyze` and test the checklist below in the host app.
 
-The screen fetches `https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/tasawwuf_api.json`. It validates the version and basic collection shape before caching. If fetching fails, it tries the previous cached catalog and then the optional bundled asset. A failed cache write does not block reading. Offline external books and source websites remain unavailable unless independently saved.
+The screen fetches `https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/tasawwuf_api.json`. It validates the version and basic collection shape before caching. If fetching fails, it tries the previous cached catalog and then the optional bundled asset. A failed cache write does not block reading. Book text already cached or bundled is available offline. External PDF/HTML files, source websites and hosted-reader editions still need a connection.
 
 ## Content contract
 
@@ -76,6 +83,7 @@ The screen fetches `https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenfl
 - Stages reference module IDs; modules reference lesson and book IDs.
 - Each module has a stage ID, suggested week and prerequisite module IDs.
 - Lessons reference source IDs. Checkpoint `correct_index` is zero-based, with four distinct answer options.
+- Book `editions` lists available languages and formats (`txt`, `html`, `pdf`, `hosted_reader`). Files are listed in `books/tasawwuf/manifest.json`; a non-null `download_url` must match a listed edition URL.
 - Book `access_type` distinguishes `publisher`, `online_text` and `reference_index`; `url` is always an external HTTPS destination.
 - `editorial_status` is `introductory_draft`. Keep it a draft until an identified, qualified reviewer signs off on the material. Do not invent a reviewer or endorsement.
 - Existing `library_api.json` readers can ignore the additive `learning_path` field on `cat_tazkiyah`. New clients can use that pointer to discover the section.
@@ -90,7 +98,7 @@ When adding content, keep IDs stable, cite appropriate sources, distinguish a te
 
 ## Local data
 
-The supplied screen stores only completed lesson IDs and saved-book IDs in SharedPreferences. These records are device-local, not encrypted and not guaranteed to survive device loss or app removal. It stores no private journal text, confessions, analytics, account identifiers or spiritual ratings. The host app’s other features retain their own policies. Clear local progress removes this section’s completion and saved-book records; the cache is retained for offline reading. Opening external links is subject to those sites’ own policies.
+The supplied screens store completed lesson IDs, saved-book IDs, cached plain-text editions, approximate reading positions and text-size settings in SharedPreferences. These records are device-local, not encrypted and not guaranteed to survive device loss or app removal. It stores no private journal text, confessions, analytics, account identifiers or spiritual ratings. The host app’s other features retain their own policies. Clear local progress removes this section’s completion and saved-book records; catalog and book caches and reading positions are retained for offline reading. The host app can clear its app storage to remove all feature data. Opening external links is subject to those sites’ own policies.
 
 ## Halaqa / facilitator format
 
@@ -99,7 +107,9 @@ For an optional weekly gathering, read both lessons beforehand, review the prima
 ## Host verification checklist
 
 - Open the section on a small phone and with large system text.
-- Open all four tabs, a lesson, a source link and a publisher link.
+- Open all four tabs, a lesson, a source link, a publisher link and each full-text edition.
+- Read Arabic right-to-left and English left-to-right; change font size, reopen the reader and check approximate reading position.
+- Cache a text edition, disable networking and reopen it. Confirm that the PDF is a scan, not an app-generated summary.
 - Confirm that an incorrect answer allows retry and a correct answer enables completion.
 - Complete a lesson, restart the app, then mark it incomplete.
 - Save a book, restart, then remove it.
@@ -108,3 +118,5 @@ For an optional weekly gathering, read both lessons beforehand, review the prima
 - Clear local progress and confirm the list resets while cached content remains.
 
 Flutter analysis, widget tests and device rendering were not executed in the authoring environment because no Flutter/Dart SDK or full host app was available. The Python content tests are independently runnable. A host-app build and qualified content review remain necessary before releasing this as a fully integrated feature.
+
+The unchanged 1910 English PDF was opened successfully (124 scan pages); title, contents and final printed page 115 were visually inspected. SHA-256 checks verify the committed files against the manifest. The book reader’s Dart syntax was parsed, but runtime behavior still requires the host verification above.

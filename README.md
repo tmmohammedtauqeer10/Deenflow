@@ -26,10 +26,10 @@ This repository acts as the live content delivery network (CDN) for the DeenFlow
 
 ## Tasawwuf, Tazkiyah & Ihsan
 
-A new source-linked learning section provides a 12-week path, 24 lessons and knowledge checks, 8 book entries, 20 glossary terms, and a Flutter screen with local study progress.
+A new source-linked learning section provides a 12-week path, 24 lessons and knowledge checks, 9 book entries, 20 glossary terms, and a Flutter screen with local study progress.
 
 - [Learning content API](tasawwuf_api.json)
 - [Flutter section](lib/tasawwuf_screen.dart)
 - [Learning path, book catalog and app integration guide](docs/tasawwuf.md)
 
-The host app still needs to add a navigation entry and dependencies. See the guide for offline assets, content status and verification limits. Books are linked through source/publisher pages; no new PDF files are redistributed.
+The host app still needs to add a navigation entry and dependencies. See the guide for offline assets, content status and verification limits. Complete Arabic source texts and a historical English scan/OCR are included in [the book folder](books/tasawwuf/README.md), alongside an Urdu hosted-reader link. Modern translations remain external publisher references.

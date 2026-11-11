@@ -16,7 +16,7 @@ class TasawwufCatalogTests(unittest.TestCase):
         self.assertEqual(d['section_id'], 'tasawwuf')
         self.assertEqual(d['api_version'], '1.0')
         self.assertEqual(d['editorial_status'], 'introductory_draft')
-        for key, count in [('stages',4),('modules',12),('lessons',24),('books',8),('glossary',20),('faqs',7)]:
+        for key, count in [('stages',4),('modules',12),('lessons',24),('books',9),('glossary',20),('faqs',7)]:
             self.assertEqual(len(d[key]), count, key)
         self.assertEqual(d['estimated_weeks'], 12)
 
@@ -74,7 +74,8 @@ class TasawwufCatalogTests(unittest.TestCase):
             self.assertTrue(uri.netloc)
         for book in self.data['books']:
             self.assertIn(book['access_type'],['publisher','online_text','reference_index'])
-            self.assertIsNone(book['download_url'])
+            if book['download_url'] is not None:
+                self.assertTrue(any(e['url'] == book['download_url'] for e in book['editions']))
             self.assertTrue(book['rights_note'])
             self.assertTrue(book['reading_guidance'])
 
