@@ -1,0 +1,40 @@
+{
+  "api_version": "1.0",
+  "default_language": "en",
+  "source_file": "quiz_data.json",
+  "question_count": 150,
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "text_direction": "ltr",
+      "file": "quiz_data.json",
+      "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/quiz_data.json",
+      "translation_status": "source"
+    },
+    {
+      "code": "ur",
+      "label": "اردو",
+      "text_direction": "rtl",
+      "file": "quiz_data.ur.json",
+      "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/quiz_data.ur.json",
+      "translation_status": "machine_translated_draft"
+    },
+    {
+      "code": "hi",
+      "label": "हिन्दी",
+      "text_direction": "ltr",
+      "file": "quiz_data.hi.json",
+      "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/quiz_data.hi.json",
+      "translation_status": "machine_translated_draft"
+    },
+    {
+      "code": "ar",
+      "label": "العربية",
+      "text_direction": "rtl",
+      "file": "quiz_data.ar.json",
+      "url": "https://raw.githubusercontent.com/tmmohammedtauqeer10/Deenflow/main/quiz_data.ar.json",
+      "translation_status": "machine_translated_draft"
+    }
+  ]
+}

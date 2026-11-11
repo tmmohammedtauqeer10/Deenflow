@@ -33,3 +33,14 @@ A new source-linked learning section provides a 12-week path, 24 lessons and kno
 - [Learning path, book catalog and app integration guide](docs/tasawwuf.md)
 
 The host app still needs to add a navigation entry and dependencies. See the guide for offline assets, content status and verification limits. Complete Arabic source texts and a historical English scan/OCR are included in [the book folder](books/tasawwuf/README.md), alongside an Urdu hosted-reader link. Modern translations remain external publisher references.
+
+## Multilingual Islamic Quiz
+
+The canonical 150-question quiz is now available in **English, Urdu, Hindi and Arabic**. All packs share the same question IDs, category order, option order and correct-answer indexes.
+
+- [Language registry](quiz_languages.json)
+- [Urdu](quiz_data.ur.json) · [Hindi](quiz_data.hi.json) · [Arabic](quiz_data.ar.json)
+- [Flutter quiz screen](lib/quiz_screen.dart)
+- [Language integration and review guide](docs/quiz_languages.md)
+
+The new translations are machine-assisted drafts with terminology corrections; fluent-speaker review is still pending. The original English feed is unchanged.
